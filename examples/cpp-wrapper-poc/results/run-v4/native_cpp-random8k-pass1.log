@@ -1,0 +1,21 @@
+impl=native_cpp bucket=YOUR_RAPID_BUCKET iterations=200 csv=native_cpp-random8k-pass1.csv
+  random8k: 200 iterations in 59.4695 s  cpu=10.212 s  alloc=15813 MiB  rss start/end/peak=237/303/401 MiB
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+random8k   APPENDABLE      100000   64    0     63.49     78.48     92.15     65.25      1.52      1.36
+random8k   APPENDABLE     2097152   73    0     75.76     97.52    109.81     79.54     26.40      3.88
+random8k   APPENDABLE   100000000   63    0    352.77   1017.85   1059.50    553.54    270.34    129.13
+random8k   DELETE          100000   64    0     46.40     53.79     61.83     45.81      0.00      0.76
+random8k   DELETE         2097152   73    0     43.18     54.23     59.57     44.61      0.00      0.82
+random8k   DELETE       100000000   63    0     46.94     53.51     60.35     49.75      0.00      0.82
+random8k   RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   WORKLOAD_TOTAL          0    1    0  59469.48  59469.48  59469.48  59469.48      0.00  10212.04
+random8k   random8k        100000   64    0     12.49     21.49     23.46     13.72      0.64      1.09
+random8k   random8k       2097152   73    0     11.66     16.21     22.73     12.70      0.67      1.06
+random8k   random8k     100000000   63    0     13.46     21.98     30.96     14.82      0.58      1.09
+random8k   random8k_initial_range     100000   64    0     11.08     16.07     20.61     11.95      0.71      0.67
+random8k   random8k_initial_range    2097152   73    0     11.72     15.36     18.80     12.01      0.67      0.76
+random8k   random8k_initial_range  100000000   63    0     12.15     22.32     25.73     13.63      0.64      0.84

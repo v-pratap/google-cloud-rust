@@ -1,0 +1,5 @@
+host=benchmark-vm zone=us-west4-a machine=c2-standard-60 cpus=60
+rapid_bucket=YOUR_RAPID_BUCKET standard_bucket=YOUR_STANDARD_BUCKET iterations=200 start=2026-10-12T14:32:52Z
+google-cloud-rust=fe42ce042 chore(ci): pin the Rust toolchain in rust-toolchain.toml (#7115)
+google-cloud-cpp=v3.11.0
+end=2026-10-12T14:49:43Z

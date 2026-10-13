@@ -1,0 +1,9 @@
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+impl=rust_wrapped bucket=YOUR_RAPID_BUCKET iterations=200 csv=rust_wrapped-read50x2x4.csv
+  read50x2x4: 200 iterations in 226.598 s
+
+SUMMARY impl=rust_wrapped
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+read50x2x4 APPENDABLE   209715200  200    0    666.87    811.11    924.62    683.95    300.19    334.45
+read50x2x4 DELETE       209715200  200    0     50.86     58.44     65.02     50.55      0.00      0.48
+read50x2x4 read50x2x4   209715200  200    0    399.59    480.28    558.23    398.33    250.66    159.78

@@ -1,0 +1,19 @@
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+impl=rust_wrapped bucket=YOUR_RAPID_BUCKET objects=2 size=16MiB chunk=2MiB range=256KiB threads=16 random_reads=128
+  write  (BidiWrite) : avg 3.4 MiB/s, avg 4721.0 ms/object
+  read   (BidiRead)  : avg 3.7 MiB/s, open p50 2760.4 ms
+  random (BidiRead)  : p50 178.3 ms, p90 846.0 ms, p99 1251.4 ms, 12.6 MiB/s aggregate
+  list   (ListObj.)  : p50 684.8 ms, p99 929.1 ms
+  binary size        : 146.6 MiB
+  peak RSS           : 64.3 MiB
+CSV,rust_wrapped,write,avg_mibps,3.402
+CSV,rust_wrapped,read,avg_mibps,3.707
+CSV,rust_wrapped,read,open_p50_ms,2760.429
+CSV,rust_wrapped,random,p50_ms,178.261
+CSV,rust_wrapped,random,p90_ms,846.044
+CSV,rust_wrapped,random,p99_ms,1251.398
+CSV,rust_wrapped,random,agg_mibps,12.619
+CSV,rust_wrapped,list,p50_ms,684.805
+CSV,rust_wrapped,list,p99_ms,929.074
+CSV,rust_wrapped,process,binary_mib,146.638
+CSV,rust_wrapped,process,peak_rss_mib,64.340

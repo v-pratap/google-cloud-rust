@@ -1,0 +1,36 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791793266.640579 1275619 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793267.642412 1275622 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793268.802604 1275628 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793269.810026 1275626 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793270.885895 1275627 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793271.886168 1275619 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793274.609036 1275620 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793275.609151 1275632 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793276.610447 1275634 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793280.025680 1275631 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793281.046670 1275632 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793282.048511 1275630 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793283.049275 1275630 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793284.063692 1275620 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793288.909939 1275630 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793289.928671 1275624 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+I0000 00:00:1791793290.939326 1275624 alts_handshaker_client.cc:301] Status 3 from handshaker service: Scope required.
+impl=native_cpp bucket=YOUR_RAPID_BUCKET objects=2 size=16MiB chunk=2MiB range=256KiB threads=16 random_reads=128
+  write  (BidiWrite) : avg 3.5 MiB/s, avg 4667.4 ms/object
+  read   (BidiRead)  : avg 4.0 MiB/s, open p50 2228.4 ms
+  random (BidiRead)  : p50 180.1 ms, p90 868.0 ms, p99 1281.0 ms, 11.8 MiB/s aggregate
+  list   (ListObj.)  : p50 683.7 ms, p99 1006.6 ms
+  binary size        : 41.9 MiB
+  peak RSS           : 84.9 MiB
+CSV,native_cpp,write,avg_mibps,3.505
+CSV,native_cpp,read,avg_mibps,4.012
+CSV,native_cpp,read,open_p50_ms,2228.431
+CSV,native_cpp,random,p50_ms,180.106
+CSV,native_cpp,random,p90_ms,868.006
+CSV,native_cpp,random,p99_ms,1281.012
+CSV,native_cpp,random,agg_mibps,11.824
+CSV,native_cpp,list,p50_ms,683.738
+CSV,native_cpp,list,p99_ms,1006.595
+CSV,native_cpp,process,binary_mib,41.929
+CSV,native_cpp,process,peak_rss_mib,84.922

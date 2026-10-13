@@ -1,0 +1,28 @@
+[package]
+name        = "gcs_core_ffi"
+version     = "0.1.0"
+edition     = "2024"
+publish     = false
+description = "C ABI over google-cloud-storage (Rust) for the GCS SDK consolidation C++ POC"
+
+# Standalone package: keep it out of any parent workspace.
+[workspace]
+
+[lib]
+name       = "gcs_core"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+bytes                = "1"
+futures              = "0.3"
+google-cloud-gax     = { path = "../../../src/gax" }
+google-cloud-storage = { path = "../../../src/storage", features = ["default-rustls-provider", "unstable-stream"] }
+tokio                = { version = "1", features = ["rt-multi-thread"] }
+
+[dev-dependencies]
+futures = "0.3"
+libc    = "0.2"
+tokio   = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+[profile.release]
+debug = 1 # keep symbols so C++ debuggers / perf can see into the Rust core

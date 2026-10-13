@@ -1,0 +1,19 @@
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+impl=rust_wrapped bucket=YOUR_RAPID_BUCKET iterations=200 csv=rust_wrapped-open-pass1.csv
+  open: 200 iterations in 49.4257 s  cpu=11.0434 s  alloc=29716 MiB  rss start/end/peak=219/269/372 MiB
+
+SUMMARY impl=rust_wrapped
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+open       APPENDABLE      100000   64    0     75.65     86.01    104.64     76.18      1.27      1.01
+open       APPENDABLE     2097152   73    0     88.16     97.40    109.79     88.63     22.69      5.70
+open       APPENDABLE   100000000   63    0    349.52    440.16    520.76    377.82    272.85    164.40
+open       DELETE          100000   64    0     46.90     55.72     57.25     47.16      0.00      0.28
+open       DELETE         2097152   73    0     48.86     57.32     89.69     49.53      0.00      0.30
+open       DELETE       100000000   63    0     50.40     57.70     64.69     50.09      0.00      0.34
+open       RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+open       RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+open       RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+open       WORKLOAD_TOTAL          0    1    0  49425.64  49425.64  49425.64  49425.64      0.00  11043.41
+open       open            100000   64    0     21.39     30.23     37.23     22.11      0.00      0.23
+open       open           2097152   73    0     20.77     26.38     37.20     21.34      0.00      0.26
+open       open         100000000   63    0     21.99     33.16     49.02     23.55      0.00      0.34

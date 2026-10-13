@@ -1,0 +1,2 @@
+impl=rust_pure bucket=YOUR_RAPID_BUCKET workload=read50x2x4 iterations=200
+  read50x2x4: 200 iterations in 212.5 s

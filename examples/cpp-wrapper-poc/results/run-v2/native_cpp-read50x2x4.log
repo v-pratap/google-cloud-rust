@@ -1,0 +1,8 @@
+impl=native_cpp bucket=YOUR_RAPID_BUCKET iterations=200 csv=native_cpp-read50x2x4.csv
+  read50x2x4: 200 iterations in 208.725 s
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+read50x2x4 APPENDABLE   209715200  200    0    643.57   1717.67   2039.63    821.96    311.13    343.46
+read50x2x4 DELETE       209715200  200    0     49.82     61.35     85.72     51.39      0.00      0.73
+read50x2x4 read50x2x4   209715200  200    0    161.04    207.96    322.77    170.01    621.93    126.99

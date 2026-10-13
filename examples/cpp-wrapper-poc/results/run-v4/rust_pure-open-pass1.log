@@ -1,0 +1,2 @@
+impl=rust_pure bucket=YOUR_RAPID_BUCKET workload=open iterations=200
+  open: 200 iterations in 47.1 s
