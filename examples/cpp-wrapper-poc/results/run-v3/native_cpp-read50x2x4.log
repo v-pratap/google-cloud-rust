@@ -1,0 +1,12 @@
+impl=native_cpp bucket=YOUR_RAPID_BUCKET iterations=200 csv=native_cpp-read50x2x4.csv
+  read50x2x4: 200 iterations in 208.213 s  cpu=97.815 s  alloc=141158 MiB  rss start/end/peak=239/397/600 MiB
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+read50x2x4 APPENDABLE   209715200  200    0    646.17   1788.56   2051.28    812.79    309.73    336.58
+read50x2x4 DELETE       209715200  200    0     48.92     60.11    219.66     54.42      0.00      0.68
+read50x2x4 RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 WORKLOAD_TOTAL          0    1    0 208213.34 208213.34 208213.34 208213.34      0.00  97814.95
+read50x2x4 read50x2x4   209715200  200    0    165.35    218.35    287.18    173.44    607.41    138.49

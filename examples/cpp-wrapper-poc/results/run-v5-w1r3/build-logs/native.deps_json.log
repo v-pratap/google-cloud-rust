@@ -1,0 +1,1256 @@
+Computing installation plan...
+A suitable version of cmake was not found (required v4.4.3).
+Downloading https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3-linux-x86_64.tar.gz -> cmake-4.4.3-linux-x86_64.tar.gz
+Successfully downloaded cmake-4.4.3-linux-x86_64.tar.gz
+Extracting cmake...
+The following packages will be built and installed:
+    abseil:x64-linux@20260107.1#3
+    crc32c:x64-linux@1.1.2#2
+    curl[core,non-http,openssl,ssl]:x64-linux@8.22.0#1
+    nlohmann-json:x64-linux@3.12.0#2
+    openssl:x64-linux@3.6.5#1
+  * vcpkg-cmake:x64-linux@2025-08-07
+  * vcpkg-cmake-config:x64-linux@2026-07-21
+  * vcpkg-cmake-get-vars:x64-linux@2025-05-29
+  * zlib:x64-linux@1.3.2#2
+Additional packages (*) will be modified to complete this operation.
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Installing 1/9 vcpkg-cmake:x64-linux@2025-08-07...
+vcpkg-cmake:x64-linux@2025-08-07 package ABI: 113c76c46fb081375d7ad5a34fa4217df8b0f83a43eb43bd2866f4d5ac3002c0
+Building vcpkg-cmake:x64-linux@2025-08-07...
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake_x64-linux/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Elapsed time to handle vcpkg-cmake:x64-linux: 17.2 ms
+Installing 2/9 vcpkg-cmake-config:x64-linux@2026-07-21...
+vcpkg-cmake-config:x64-linux@2026-07-21 package ABI: 8142e355d03cde7ed5cf8968f48e3e3cc468fe4cc817884fafd0a8e0f9f2c3e4
+Building vcpkg-cmake-config:x64-linux@2026-07-21...
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 15.4 ms
+Installing 3/9 abseil:x64-linux@20260107.1#3...
+abseil:x64-linux@20260107.1#3 package ABI: b9b433efc3d75a9349784d88b63f7c56cdeee87ed6d72f603a43e888a70f40bb
+Building abseil:x64-linux@20260107.1#3...
+Downloading https://github.com/abseil/abseil-cpp/archive/20260107.1.tar.gz -> abseil-abseil-cpp-20260107.1.tar.gz
+Successfully downloaded abseil-abseil-cpp-20260107.1.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/abseil-abseil-cpp-20260107.1.tar.gz
+-- Applying patch 003-force-cxx-17.patch
+-- Applying patch fix-heterogeneous_lookup_testing-target.patch
+-- Applying patch fix-mingw-dll.patch
+-- Applying patch fix-gcc13-constexpr-function-pointer.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/abseil/src/20260107.1-b1a4a53e9a.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_absl_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_absl_log.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_absl_vlog_is_on.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_algorithm.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_algorithm_container.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_any.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_any_invocable.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_atomic_hook.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bad_any_cast.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bad_optional_access.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bad_variant_access.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_base.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_base_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bind_front.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_borrowed_fixup_buffer.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_bounded_utf8_length_sequence.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_btree.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_charset.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_chunked_queue.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_city.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_civil_time.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cleanup.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cleanup_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_common_policy_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_compare.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_compressed_tuple.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_constexpr_testing_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_container_common.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_container_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cord.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cord_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_functions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_handle.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_info.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_sample_token.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_statistics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_update_scope.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_cordz_update_tracker.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_core_headers.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_crc32c.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_crc_cord_state.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_crc_cpu_detect.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_crc_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_debugging.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_debugging_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_decode_rust_punycode.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_demangle_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_demangle_rust.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_die_if_null.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_dynamic_annotations.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_endian.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_errno_saver.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_examine_stack.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_exponential_biased.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_failure_signal_handler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_fast_type_id.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_fixed_array.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_commandlineflag.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_commandlineflag_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_marshalling.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_parse.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_path_util.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_private_handle_accessor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_program_name.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_reflection.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_usage.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flags_usage_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flat_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_flat_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_function_ref.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_generic_printer_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_graphcycles_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_has_ostream_operator.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hash.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hash_container_defaults.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hash_function_defaults.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hash_policy_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hashtable_control_bytes.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hashtable_debug.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hashtable_debug_hooks.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hashtable_profiler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_hashtablez_sampler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_inlined_vector.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_inlined_vector_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_int128.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_iterator_traits_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_iterator_traits_test_helper_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_kernel_timeout_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_layout.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_leak_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_linked_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_linked_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_entry.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_globals.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_initialize.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_append_truncated.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_check_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_check_op.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_conditions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_container.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_fnmatch.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_format.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_globals.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_log_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_log_sink_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_message.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_nullguard.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_nullstream.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_proto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_strip.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_structured.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_structured_proto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_internal_voidify.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_severity.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_sink.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_sink_registry.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_streamer.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_log_structured.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_malloc_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_meta.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_no_destructor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_node_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_node_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_node_slot_policy.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_non_temporal_arm_intrinsics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_non_temporal_memcpy.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_nullability.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_nullability_traits_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_numeric.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_numeric_representation.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_optional.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_overload.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_periodic_sampler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_poison.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_prefetch.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_pretty_function.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_profile_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_bit_gen_ref.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_distributions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_distribution_caller.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_entropy_pool.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_fastmath.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_generate_real.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_iostream_state_saver.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_mock_helpers.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_pcg_engine.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_platform.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_randen.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_randen_engine.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_randen_hwaes_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_randen_slow.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_salted_seed_seq.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_seed_material.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_uniform_helper.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_internal_wide_multiply.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_random.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_seed_gen_exception.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_random_seed_sequences.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_raw_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_raw_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_raw_hash_set_resize_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_raw_logging_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_requires_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_sample_recorder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_scoped_set_env.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_span.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_spinlock_wait.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_stacktrace.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_status.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_statusor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_str_format.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_str_format_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_strerror.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_string_view.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_strings.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_strings_append_and_overwrite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_strings_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_strings_resize_and_overwrite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_symbolize.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_synchronization.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_throw_delegate.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_time.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_time_zone.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_tracing_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_type_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_utf8_for_code_point.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_utility.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_variant.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_vlog_config_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_vlog_is_on.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/lib/pkgconfig/absl_weakly_mixed_integer.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_absl_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_absl_log.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_absl_vlog_is_on.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_algorithm.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_algorithm_container.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_any.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_any_invocable.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_atomic_hook.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bad_any_cast.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bad_optional_access.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bad_variant_access.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_base.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_base_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bind_front.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_borrowed_fixup_buffer.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_bounded_utf8_length_sequence.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_btree.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_charset.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_chunked_queue.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_city.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_civil_time.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cleanup.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cleanup_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_common_policy_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_compare.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_compressed_tuple.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_constexpr_testing_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_container_common.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_container_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cord.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cord_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_functions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_handle.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_info.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_sample_token.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_statistics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_update_scope.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_cordz_update_tracker.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_core_headers.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_crc32c.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_crc_cord_state.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_crc_cpu_detect.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_crc_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_debugging.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_debugging_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_decode_rust_punycode.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_demangle_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_demangle_rust.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_die_if_null.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_dynamic_annotations.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_endian.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_errno_saver.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_examine_stack.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_exponential_biased.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_failure_signal_handler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_fast_type_id.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_fixed_array.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_commandlineflag.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_commandlineflag_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_marshalling.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_parse.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_path_util.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_private_handle_accessor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_program_name.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_reflection.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_usage.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flags_usage_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flat_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_flat_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_function_ref.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_generic_printer_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_graphcycles_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_has_ostream_operator.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hash.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hash_container_defaults.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hash_function_defaults.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hash_policy_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hashtable_control_bytes.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hashtable_debug.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hashtable_debug_hooks.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hashtable_profiler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_hashtablez_sampler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_inlined_vector.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_inlined_vector_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_int128.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_iterator_traits_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_iterator_traits_test_helper_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_kernel_timeout_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_layout.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_leak_check.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_linked_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_linked_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_entry.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_globals.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_initialize.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_append_truncated.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_check_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_check_op.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_conditions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_config.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_container.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_flags.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_fnmatch.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_format.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_globals.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_log_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_log_sink_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_message.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_nullguard.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_nullstream.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_proto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_strip.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_structured.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_structured_proto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_internal_voidify.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_severity.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_sink.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_sink_registry.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_streamer.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_log_structured.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_malloc_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_meta.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_no_destructor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_node_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_node_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_node_slot_policy.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_non_temporal_arm_intrinsics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_non_temporal_memcpy.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_nullability.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_nullability_traits_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_numeric.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_numeric_representation.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_optional.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_overload.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_periodic_sampler.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_poison.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_prefetch.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_pretty_function.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_profile_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_bit_gen_ref.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_distributions.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_distribution_caller.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_entropy_pool.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_fastmath.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_generate_real.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_iostream_state_saver.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_mock_helpers.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_pcg_engine.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_platform.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_randen.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_randen_engine.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_randen_hwaes_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_randen_slow.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_salted_seed_seq.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_seed_material.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_uniform_helper.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_internal_wide_multiply.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_random.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_seed_gen_exception.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_random_seed_sequences.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_raw_hash_map.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_raw_hash_set.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_raw_hash_set_resize_impl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_raw_logging_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_requires_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_sample_recorder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_scoped_set_env.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_span.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_spinlock_wait.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_stacktrace.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_status.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_statusor.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_str_format.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_str_format_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_strerror.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_string_view.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_strings.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_strings_append_and_overwrite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_strings_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_strings_resize_and_overwrite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_symbolize.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_synchronization.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_throw_delegate.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_time.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_time_zone.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_tracing_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_type_traits.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_utf8_for_code_point.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_utility.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_variant.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_vlog_config_internal.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_vlog_is_on.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/debug/lib/pkgconfig/absl_weakly_mixed_integer.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/abseil_x64-linux/share/abseil/copyright
+-- Performing post-build validation
+Elapsed time to handle abseil:x64-linux: 34 s
+Installing 4/9 crc32c:x64-linux@1.1.2#2...
+crc32c:x64-linux@1.1.2#2 package ABI: be6f5cc9b7c6e3aeec6c953a012d298ced776340d54adc579bc31334dc07247f
+Building crc32c:x64-linux@1.1.2#2...
+Downloading https://github.com/google/crc32c/archive/1.1.2.tar.gz -> google-crc32c-1.1.2.tar.gz
+Successfully downloaded google-crc32c-1.1.2.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/google-crc32c-1.1.2.tar.gz
+-- Applying patch fix_clang-cl.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/crc32c/src/1.1.2-4f3704abd0.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/crc32c_x64-linux/share/crc32c/copyright
+-- Performing post-build validation
+Elapsed time to handle crc32c:x64-linux: 1.9 s
+Installing 5/9 vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+vcpkg-cmake-get-vars:x64-linux@2025-05-29 package ABI: de9b59f73f25a44d4b2bdc118aa946773bda00b03dd889985d9036723a8237ae
+Building vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg_cmake_get_vars.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars/CMakeLists.txt
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake-get-vars.cmake.in
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg-port-config.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/copyright
+-- Performing post-build validation
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 17.8 ms
+Installing 6/9 openssl:x64-linux@3.6.5#1...
+openssl:x64-linux@3.6.5#1 package ABI: 68034e93e90b4790d88f37a9d1209b44b2126f66540af61657e21994dc955f4e
+Building openssl:x64-linux@3.6.5#1...
+Downloading https://github.com/openssl/openssl/archive/openssl-3.6.5.tar.gz -> openssl-openssl-openssl-3.6.5.tar.gz
+Successfully downloaded openssl-openssl-openssl-3.6.5.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/openssl-openssl-openssl-3.6.5.tar.gz
+-- Applying patch cmake-config.patch
+-- Applying patch command-line-length.patch
+-- Applying patch script-prefix.patch
+-- Applying patch windows/install-layout.patch
+-- Applying patch windows/install-pdbs.patch
+-- Applying patch windows/install-programs.diff
+-- Applying patch unix/android-cc.patch
+-- Applying patch unix/move-openssldir.patch
+-- Applying patch unix/no-empty-dirs.patch
+-- Applying patch unix/no-static-libs-for-shared.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/openssl/src/nssl-3.6.5-c2a478abe6.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /opt/gcs-poc/measure/vcpkg/buildtrees/openssl/cmake-get-vars_C_CXX-x64-linux.cmake.log
+openssl requires Linux kernel headers from the system package manager.
+   They can be installed on Alpine systems via `apk add linux-headers`.
+   They can be installed on Ubuntu systems via `apt install linux-libc-dev`.
+
+-- Getting CMake variables for x64-linux-dbg
+-- Getting CMake variables for x64-linux-rel
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building x64-linux-dbg
+-- Installing x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/openssl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/openssl.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/share/openssl/usage
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/openssl_x64-linux/share/openssl/copyright
+Downloading https://github.com/NixOS/patchelf/releases/download/0.19.2/patchelf-0.19.2-x86_64.tar.gz -> patchelf-0.19.2-x86_64.tar.gz
+Successfully downloaded patchelf-0.19.2-x86_64.tar.gz
+-- Performing post-build validation
+Elapsed time to handle openssl:x64-linux: 37 s
+Installing 7/9 zlib:x64-linux@1.3.2#2...
+zlib:x64-linux@1.3.2#2 package ABI: 6e35a661b3e6a2f9733520ddeba7f90a93e678ccb1f1171dc899808727cb52d5
+Building zlib:x64-linux@1.3.2#2...
+Downloading https://github.com/madler/zlib/archive/v1.3.2.tar.gz -> madler-zlib-v1.3.2.tar.gz
+Successfully downloaded madler-zlib-v1.3.2.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/madler-zlib-v1.3.2.tar.gz
+-- Applying patch 0001-no-version-script-on-ohos.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/zlib/src/v1.3.2-c19a0bfd23.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/zlib_x64-linux/lib/pkgconfig/zlib.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/zlib_x64-linux/debug/lib/pkgconfig/zlib.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/zlib_x64-linux/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/zlib_x64-linux/share/zlib/copyright
+-- Performing post-build validation
+Elapsed time to handle zlib:x64-linux: 2.1 s
+Installing 8/9 curl[core,non-http,openssl,ssl]:x64-linux@8.22.0#1...
+curl[core,non-http,openssl,ssl]:x64-linux@8.22.0#1 package ABI: 74e62c3e6d9b60310d6f6258e00d8d49bdbcf067a4f090d3c1e7ac03da61f339
+Building curl[core,non-http,openssl,ssl]:x64-linux@8.22.0#1...
+Downloading https://github.com/curl/curl/archive/curl-8_22_0.tar.gz -> curl-curl-curl-8_22_0.tar.gz
+Successfully downloaded curl-curl-curl-8_22_0.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/curl-curl-curl-8_22_0.tar.gz
+-- Applying patch dependencies.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/curl/src/url-8_22_0-48214b4564.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/curl_x64-linux/lib/pkgconfig/libcurl.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/curl_x64-linux/debug/lib/pkgconfig/libcurl.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/curl_x64-linux/share/curl/vcpkg-cmake-wrapper.cmake
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/curl_x64-linux/share/curl/usage
+-- Performing post-build validation
+Elapsed time to handle curl:x64-linux: 12 s
+Installing 9/9 nlohmann-json:x64-linux@3.12.0#2...
+nlohmann-json:x64-linux@3.12.0#2 package ABI: 518bb2de73cd67abfe01946a153735eab68976b8e445381e2e9da0795f19181b
+Building nlohmann-json:x64-linux@3.12.0#2...
+Downloading https://github.com/nlohmann/json/archive/v3.12.0.tar.gz -> nlohmann-json-v3.12.0.tar.gz
+Successfully downloaded nlohmann-json-v3.12.0.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/nlohmann-json-v3.12.0.tar.gz
+-- Applying patch fix-4736_char8_t.patch
+-- Applying patch fix-4742_std_optional.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/nlohmann-json/src/v3.12.0-89fed620e6.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/nlohmann-json_x64-linux/share/pkgconfig/nlohmann_json.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/nlohmann-json_x64-linux/debug/share/pkgconfig/nlohmann_json.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/nlohmann-json_x64-linux/share/nlohmann-json/copyright
+-- Performing post-build validation
+Elapsed time to handle nlohmann-json:x64-linux: 1.5 s
+Total install time: 1.5 min
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+Apache-2.0
+BSD-3-Clause
+ISC
+MIT
+Zlib
+curl
+abseil provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(absl CONFIG REQUIRED)
+  # note: 203 additional targets are not displayed.
+  target_link_libraries(main PRIVATE absl::any absl::log absl::base absl::bits)
+
+abseil provides pkg-config modules:
+
+  # Abseil absl_check library
+  absl_absl_check
+
+  # Abseil absl_log library
+  absl_absl_log
+
+  # Abseil absl_vlog_is_on library
+  absl_absl_vlog_is_on
+
+  # Abseil algorithm library
+  absl_algorithm
+
+  # Abseil algorithm_container library
+  absl_algorithm_container
+
+  # Abseil any library
+  absl_any
+
+  # Abseil any_invocable library
+  absl_any_invocable
+
+  # Abseil atomic_hook library
+  absl_atomic_hook
+
+  # Abseil bad_any_cast library
+  absl_bad_any_cast
+
+  # Abseil bad_optional_access library
+  absl_bad_optional_access
+
+  # Abseil bad_variant_access library
+  absl_bad_variant_access
+
+  # Abseil base library
+  absl_base
+
+  # Abseil base_internal library
+  absl_base_internal
+
+  # Abseil bind_front library
+  absl_bind_front
+
+  # Abseil bits library
+  absl_bits
+
+  # Abseil borrowed_fixup_buffer library
+  absl_borrowed_fixup_buffer
+
+  # Abseil bounded_utf8_length_sequence library
+  absl_bounded_utf8_length_sequence
+
+  # Abseil btree library
+  absl_btree
+
+  # Abseil charset library
+  absl_charset
+
+  # Abseil check library
+  absl_check
+
+  # Abseil chunked_queue library
+  absl_chunked_queue
+
+  # Abseil city library
+  absl_city
+
+  # Abseil civil_time library
+  absl_civil_time
+
+  # Abseil cleanup library
+  absl_cleanup
+
+  # Abseil cleanup_internal library
+  absl_cleanup_internal
+
+  # Abseil common_policy_traits library
+  absl_common_policy_traits
+
+  # Abseil compare library
+  absl_compare
+
+  # Abseil compressed_tuple library
+  absl_compressed_tuple
+
+  # Abseil config library
+  absl_config
+
+  # Abseil constexpr_testing_internal library
+  absl_constexpr_testing_internal
+
+  # Abseil container_common library
+  absl_container_common
+
+  # Abseil container_memory library
+  absl_container_memory
+
+  # Abseil cord library
+  absl_cord
+
+  # Abseil cord_internal library
+  absl_cord_internal
+
+  # Abseil cordz_functions library
+  absl_cordz_functions
+
+  # Abseil cordz_handle library
+  absl_cordz_handle
+
+  # Abseil cordz_info library
+  absl_cordz_info
+
+  # Abseil cordz_sample_token library
+  absl_cordz_sample_token
+
+  # Abseil cordz_statistics library
+  absl_cordz_statistics
+
+  # Abseil cordz_update_scope library
+  absl_cordz_update_scope
+
+  # Abseil cordz_update_tracker library
+  absl_cordz_update_tracker
+
+  # Abseil core_headers library
+  absl_core_headers
+
+  # Abseil crc32c library
+  absl_crc32c
+
+  # Abseil crc_cord_state library
+  absl_crc_cord_state
+
+  # Abseil crc_cpu_detect library
+  absl_crc_cpu_detect
+
+  # Abseil crc_internal library
+  absl_crc_internal
+
+  # Abseil debugging library
+  absl_debugging
+
+  # Abseil debugging_internal library
+  absl_debugging_internal
+
+  # Abseil decode_rust_punycode library
+  absl_decode_rust_punycode
+
+  # Abseil demangle_internal library
+  absl_demangle_internal
+
+  # Abseil demangle_rust library
+  absl_demangle_rust
+
+  # Abseil die_if_null library
+  absl_die_if_null
+
+  # Abseil dynamic_annotations library
+  absl_dynamic_annotations
+
+  # Abseil endian library
+  absl_endian
+
+  # Abseil errno_saver library
+  absl_errno_saver
+
+  # Abseil examine_stack library
+  absl_examine_stack
+
+  # Abseil exponential_biased library
+  absl_exponential_biased
+
+  # Abseil failure_signal_handler library
+  absl_failure_signal_handler
+
+  # Abseil fast_type_id library
+  absl_fast_type_id
+
+  # Abseil fixed_array library
+  absl_fixed_array
+
+  # Abseil flags library
+  absl_flags
+
+  # Abseil flags_commandlineflag library
+  absl_flags_commandlineflag
+
+  # Abseil flags_commandlineflag_internal library
+  absl_flags_commandlineflag_internal
+
+  # Abseil flags_config library
+  absl_flags_config
+
+  # Abseil flags_internal library
+  absl_flags_internal
+
+  # Abseil flags_marshalling library
+  absl_flags_marshalling
+
+  # Abseil flags_parse library
+  absl_flags_parse
+
+  # Abseil flags_path_util library
+  absl_flags_path_util
+
+  # Abseil flags_private_handle_accessor library
+  absl_flags_private_handle_accessor
+
+  # Abseil flags_program_name library
+  absl_flags_program_name
+
+  # Abseil flags_reflection library
+  absl_flags_reflection
+
+  # Abseil flags_usage library
+  absl_flags_usage
+
+  # Abseil flags_usage_internal library
+  absl_flags_usage_internal
+
+  # Abseil flat_hash_map library
+  absl_flat_hash_map
+
+  # Abseil flat_hash_set library
+  absl_flat_hash_set
+
+  # Abseil function_ref library
+  absl_function_ref
+
+  # Abseil generic_printer_internal library
+  absl_generic_printer_internal
+
+  # Abseil graphcycles_internal library
+  absl_graphcycles_internal
+
+  # Abseil has_ostream_operator library
+  absl_has_ostream_operator
+
+  # Abseil hash library
+  absl_hash
+
+  # Abseil hash_container_defaults library
+  absl_hash_container_defaults
+
+  # Abseil hash_function_defaults library
+  absl_hash_function_defaults
+
+  # Abseil hash_policy_traits library
+  absl_hash_policy_traits
+
+  # Abseil hashtable_control_bytes library
+  absl_hashtable_control_bytes
+
+  # Abseil hashtable_debug library
+  absl_hashtable_debug
+
+  # Abseil hashtable_debug_hooks library
+  absl_hashtable_debug_hooks
+
+  # Abseil hashtable_profiler library
+  absl_hashtable_profiler
+
+  # Abseil hashtablez_sampler library
+  absl_hashtablez_sampler
+
+  # Abseil inlined_vector library
+  absl_inlined_vector
+
+  # Abseil inlined_vector_internal library
+  absl_inlined_vector_internal
+
+  # Abseil int128 library
+  absl_int128
+
+  # Abseil iterator_traits_internal library
+  absl_iterator_traits_internal
+
+  # Abseil iterator_traits_test_helper_internal library
+  absl_iterator_traits_test_helper_internal
+
+  # Abseil kernel_timeout_internal library
+  absl_kernel_timeout_internal
+
+  # Abseil layout library
+  absl_layout
+
+  # Abseil leak_check library
+  absl_leak_check
+
+  # Abseil linked_hash_map library
+  absl_linked_hash_map
+
+  # Abseil linked_hash_set library
+  absl_linked_hash_set
+
+  # Abseil log library
+  absl_log
+
+  # Abseil log_entry library
+  absl_log_entry
+
+  # Abseil log_flags library
+  absl_log_flags
+
+  # Abseil log_globals library
+  absl_log_globals
+
+  # Abseil log_initialize library
+  absl_log_initialize
+
+  # Abseil log_internal_append_truncated library
+  absl_log_internal_append_truncated
+
+  # Abseil log_internal_check_impl library
+  absl_log_internal_check_impl
+
+  # Abseil log_internal_check_op library
+  absl_log_internal_check_op
+
+  # Abseil log_internal_conditions library
+  absl_log_internal_conditions
+
+  # Abseil log_internal_config library
+  absl_log_internal_config
+
+  # Abseil log_internal_container library
+  absl_log_internal_container
+
+  # Abseil log_internal_flags library
+  absl_log_internal_flags
+
+  # Abseil log_internal_fnmatch library
+  absl_log_internal_fnmatch
+
+  # Abseil log_internal_format library
+  absl_log_internal_format
+
+  # Abseil log_internal_globals library
+  absl_log_internal_globals
+
+  # Abseil log_internal_log_impl library
+  absl_log_internal_log_impl
+
+  # Abseil log_internal_log_sink_set library
+  absl_log_internal_log_sink_set
+
+  # Abseil log_internal_message library
+  absl_log_internal_message
+
+  # Abseil log_internal_nullguard library
+  absl_log_internal_nullguard
+
+  # Abseil log_internal_nullstream library
+  absl_log_internal_nullstream
+
+  # Abseil log_internal_proto library
+  absl_log_internal_proto
+
+  # Abseil log_internal_strip library
+  absl_log_internal_strip
+
+  # Abseil log_internal_structured library
+  absl_log_internal_structured
+
+  # Abseil log_internal_structured_proto library
+  absl_log_internal_structured_proto
+
+  # Abseil log_internal_voidify library
+  absl_log_internal_voidify
+
+  # Abseil log_severity library
+  absl_log_severity
+
+  # Abseil log_sink library
+  absl_log_sink
+
+  # Abseil log_sink_registry library
+  absl_log_sink_registry
+
+  # Abseil log_streamer library
+  absl_log_streamer
+
+  # Abseil log_structured library
+  absl_log_structured
+
+  # Abseil malloc_internal library
+  absl_malloc_internal
+
+  # Abseil memory library
+  absl_memory
+
+  # Abseil meta library
+  absl_meta
+
+  # Abseil no_destructor library
+  absl_no_destructor
+
+  # Abseil node_hash_map library
+  absl_node_hash_map
+
+  # Abseil node_hash_set library
+  absl_node_hash_set
+
+  # Abseil node_slot_policy library
+  absl_node_slot_policy
+
+  # Abseil non_temporal_arm_intrinsics library
+  absl_non_temporal_arm_intrinsics
+
+  # Abseil non_temporal_memcpy library
+  absl_non_temporal_memcpy
+
+  # Abseil nullability library
+  absl_nullability
+
+  # Abseil nullability_traits_internal library
+  absl_nullability_traits_internal
+
+  # Abseil numeric library
+  absl_numeric
+
+  # Abseil numeric_representation library
+  absl_numeric_representation
+
+  # Abseil optional library
+  absl_optional
+
+  # Abseil overload library
+  absl_overload
+
+  # Abseil periodic_sampler library
+  absl_periodic_sampler
+
+  # Abseil poison library
+  absl_poison
+
+  # Abseil prefetch library
+  absl_prefetch
+
+  # Abseil pretty_function library
+  absl_pretty_function
+
+  # Abseil profile_builder library
+  absl_profile_builder
+
+  # Abseil random_bit_gen_ref library
+  absl_random_bit_gen_ref
+
+  # Abseil random_distributions library
+  absl_random_distributions
+
+  # Abseil random_internal_distribution_caller library
+  absl_random_internal_distribution_caller
+
+  # Abseil random_internal_distribution_test_util library
+  absl_random_internal_distribution_test_util
+
+  # Abseil random_internal_entropy_pool library
+  absl_random_internal_entropy_pool
+
+  # Abseil random_internal_fast_uniform_bits library
+  absl_random_internal_fast_uniform_bits
+
+  # Abseil random_internal_fastmath library
+  absl_random_internal_fastmath
+
+  # Abseil random_internal_generate_real library
+  absl_random_internal_generate_real
+
+  # Abseil random_internal_iostream_state_saver library
+  absl_random_internal_iostream_state_saver
+
+  # Abseil random_internal_mock_helpers library
+  absl_random_internal_mock_helpers
+
+  # Abseil random_internal_nonsecure_base library
+  absl_random_internal_nonsecure_base
+
+  # Abseil random_internal_pcg_engine library
+  absl_random_internal_pcg_engine
+
+  # Abseil random_internal_platform library
+  absl_random_internal_platform
+
+  # Abseil random_internal_randen library
+  absl_random_internal_randen
+
+  # Abseil random_internal_randen_engine library
+  absl_random_internal_randen_engine
+
+  # Abseil random_internal_randen_hwaes library
+  absl_random_internal_randen_hwaes
+
+  # Abseil random_internal_randen_hwaes_impl library
+  absl_random_internal_randen_hwaes_impl
+
+  # Abseil random_internal_randen_slow library
+  absl_random_internal_randen_slow
+
+  # Abseil random_internal_salted_seed_seq library
+  absl_random_internal_salted_seed_seq
+
+  # Abseil random_internal_seed_material library
+  absl_random_internal_seed_material
+
+  # Abseil random_internal_traits library
+  absl_random_internal_traits
+
+  # Abseil random_internal_uniform_helper library
+  absl_random_internal_uniform_helper
+
+  # Abseil random_internal_wide_multiply library
+  absl_random_internal_wide_multiply
+
+  # Abseil random_random library
+  absl_random_random
+
+  # Abseil random_seed_gen_exception library
+  absl_random_seed_gen_exception
+
+  # Abseil random_seed_sequences library
+  absl_random_seed_sequences
+
+  # Abseil raw_hash_map library
+  absl_raw_hash_map
+
+  # Abseil raw_hash_set library
+  absl_raw_hash_set
+
+  # Abseil raw_hash_set_resize_impl library
+  absl_raw_hash_set_resize_impl
+
+  # Abseil raw_logging_internal library
+  absl_raw_logging_internal
+
+  # Abseil requires_internal library
+  absl_requires_internal
+
+  # Abseil sample_recorder library
+  absl_sample_recorder
+
+  # Abseil scoped_set_env library
+  absl_scoped_set_env
+
+  # Abseil span library
+  absl_span
+
+  # Abseil spinlock_wait library
+  absl_spinlock_wait
+
+  # Abseil stacktrace library
+  absl_stacktrace
+
+  # Abseil status library
+  absl_status
+
+  # Abseil statusor library
+  absl_statusor
+
+  # Abseil str_format library
+  absl_str_format
+
+  # Abseil str_format_internal library
+  absl_str_format_internal
+
+  # Abseil strerror library
+  absl_strerror
+
+  # Abseil string_view library
+  absl_string_view
+
+  # Abseil strings library
+  absl_strings
+
+  # Abseil strings_append_and_overwrite library
+  absl_strings_append_and_overwrite
+
+  # Abseil strings_internal library
+  absl_strings_internal
+
+  # Abseil strings_resize_and_overwrite library
+  absl_strings_resize_and_overwrite
+
+  # Abseil symbolize library
+  absl_symbolize
+
+  # Abseil synchronization library
+  absl_synchronization
+
+  # Abseil throw_delegate library
+  absl_throw_delegate
+
+  # Abseil time library
+  absl_time
+
+  # Abseil time_zone library
+  absl_time_zone
+
+  # Abseil tracing_internal library
+  absl_tracing_internal
+
+  # Abseil type_traits library
+  absl_type_traits
+
+  # Abseil utf8_for_code_point library
+  absl_utf8_for_code_point
+
+  # Abseil utility library
+  absl_utility
+
+  # Abseil variant library
+  absl_variant
+
+  # Abseil vlog_config_internal library
+  absl_vlog_config_internal
+
+  # Abseil vlog_is_on library
+  absl_vlog_is_on
+
+  # Abseil weakly_mixed_integer library
+  absl_weakly_mixed_integer
+
+crc32c provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Crc32c CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Crc32c::crc32c)
+
+openssl is compatible with built-in CMake targets:
+
+  find_package(OpenSSL REQUIRED)
+  target_link_libraries(main PRIVATE OpenSSL::SSL)
+  target_link_libraries(main PRIVATE OpenSSL::Crypto)
+
+curl is compatible with built-in CMake targets:
+
+    find_package(CURL REQUIRED)
+    target_link_libraries(main PRIVATE CURL::libcurl)
+
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
+All requested installations completed successfully in: 1.5 min

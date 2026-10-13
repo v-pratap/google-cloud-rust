@@ -1,0 +1,74 @@
+
+==== 1. What the C++ binary is LINKED against (from the build system) ====
+  LINK_LIBRARIES = libgcs_rust.a  cargo/release/libgcs_core.a  -ldl  -lm
+-> only our C++ wrapper (libgcs_rust.a) + the Rust core (libgcs_core.a). No google-cloud-cpp, no gRPC C++.
+
+==== 2. Shared libraries loaded at runtime (ldd) ====
+	linux-vdso.so.1 (0x00007fe01eced000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fe01ce00000)
+	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007fe01ebb5000)
+	libgcc_s.so.1 => /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fe01eb87000)
+	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007fe01cc09000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fe01ecef000)
+-> only libc/libstdc++/libm. Nothing from google-cloud-cpp, grpc, protobuf or abseil.
+
+==== 3. Code actually INSIDE each binary (symbol counts) ====
+[build/quickstart]  (the POC: C++ app -> Rust core)
+  google::cloud::  (C++ SDK)               0
+  grpc_core::      (C++ gRPC)              0
+  google_cloud_storage:: (Rust SDK)    14978
+  tonic::          (Rust gRPC)          4775
+  tokio::          (Rust async)         4870
+[native/build/native_cpp_bench]  (control: plain google-cloud-cpp)
+  google::cloud::  (C++ SDK)           16173
+  grpc_core::      (C++ gRPC)          22324
+  google_cloud_storage:: (Rust SDK)        0
+  tonic::          (Rust gRPC)             0
+  tokio::          (Rust async)            0
+
+==== 4. It really works against GCS ====
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+[BidiWrite] wrote gs://YOUR_RAPID_BUCKET/gcs-rust-poc/quickstart/1791803449168617166 size=1048576 gen=1791803450864531 class=RAPID in 2.84581s (0.351394 MiB/s)
+[BidiRead]  full read 1048576 bytes in 3.90278s (0.256228 MiB/s), match=yes
+[BidiRead]  range off=0 len=1024 match=yes
+[BidiRead]  range off=524288 len=65536 match=yes
+[BidiRead]  range off=1044480 len=4096 match=yes
+[BidiRead]  range off=12345 len=1048576 match=yes
+[List]      1 objects under gcs-rust-poc/quickstart/ in 923.255ms, found ours=yes
+[Errors]    open missing object -> NOT_FOUND: the service reports an error with code NOT_FOUND described as: No suc
+PASS
+
+==== 5. LIVE: stack captured inside the Rust SDK while bytes arrive from GCS ====
+Thread 64 "gcs-core" hit Breakpoint 1, google_cloud_storage::storage::bidi::active_read::ActiveRead::handle_data () at src/storage/bidi/active_read.rs:41
+#0  google_cloud_storage::storage::bidi::active_read::ActiveRead::handle_data () at src/storage/bidi/active_read.rs:41
+#1  0x0000555556497702 in google_cloud_storage::storage::bidi::worker::{impl#1}::handle_range_data::{async_fn#0}<google_cloud_gax_internal::grpc::Client> () at /usr/local
+#2  google_cloud_storage::storage::bidi::worker::{impl#1}::handle_ranges::{async_fn#0}<google_cloud_gax_internal::grpc::Client> () at $HOME
+#3  0x000055555649850a in google_cloud_storage::storage::bidi::worker::{impl#1}::handle_response_success::{async_fn#0}<google_cloud_gax_internal::grpc::Client> () at /usr
+#4  0x000055555649ad66 in google_cloud_storage::storage::bidi::worker::{impl#1}::handle_response::{async_fn#0}<google_cloud_gax_internal::grpc::Client> () at /usr/local/g
+#5  google_cloud_storage::storage::bidi::worker::{impl#1}::run::{async_fn#0}<google_cloud_gax_internal::grpc::Client> () at $HOME/google-cl
+#6  0x00005555564a6550 in tokio::runtime::task::core::{impl#6}::poll::{closure#0}<google_cloud_storage::storage::bidi::worker::{impl#1}::run::{async_fn_env#0}<google_clou
+#7  tokio::loom::std::unsafe_cell::UnsafeCell::with_mut<tokio::runtime::task::core::Stage<google_cloud_storage::storage::bidi::worker::{impl#1}::run::{async_fn_env#0}<goo
+
+==== 6. LIVE: the same read, seen from the C++ side (C++ -> C ABI -> Rust) ====
+#0  0x0000555555662a90 in ReadTrampoline ()
+#1  0x0000555555670e1f in gcs_core::gcs_object_read_range::{closure#0}::{async_block#2} () at src/lib.rs:506
+#2  tokio::runtime::park::{impl#4}::block_on::{closure#0}<..> () at $HOME/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.2
+#3  tokio::task::coop::with_budget<core::task::poll::Poll<core::result::Result<u64, gcs_core::FfiError>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<..>> (
+#4  tokio::task::coop::budget<core::task::poll::Poll<core::result::Result<u64, gcs_core::FfiError>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<..>> () at 
+#5  tokio::runtime::park::CachedParkThread::block_on<..> () at $HOME/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.2/src/
+#6  0x000055555669a737 in tokio::runtime::context::blocking::BlockingRegionGuard::block_on<..> () at $HOME/.cargo/registry/src/index.crates
+#7  tokio::runtime::scheduler::multi_thread::{impl#0}::block_on::{closure#0}<..> () at $HOME/.cargo/registry/src/index.crates.io-1949cf8c6b
+#8  tokio::runtime::context::runtime::enter_runtime<tokio::runtime::scheduler::multi_thread::{impl#0}::block_on::{closure_env#0}<..>, core::result::Result<u64, gcs_core::
+#9  0x00005555566cb531 in tokio::runtime::scheduler::multi_thread::MultiThread::block_on<..> () at $HOME/.cargo/registry/src/index.crates.i
+#10 tokio::runtime::runtime::Runtime::block_on_inner<..> () at $HOME/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.2/src/
+#11 tokio::runtime::runtime::Runtime::block_on<..> () at $HOME/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.2/src/runtim
+#12 0x00005555556a4079 in gcs_core::gcs_object_read_range::{closure#0} () at src/lib.rs:499
+#13 core::panic::unwind_safe::{impl#23}::call_once<core::result::Result<(), gcs_core::FfiError>, gcs_core::gcs_object_read_range::{closure_env#0}> () at /rustc/b940084d7e
+#14 std::panicking::catch_unwind::do_call<core::panic::unwind_safe::AssertUnwindSafe<..>, core::result::Result<(), gcs_core::FfiError>> () at /rustc/b940084d7eb6a299eb4bf
+#15 std::panicking::catch_unwind<core::result::Result<(), gcs_core::FfiError>, core::panic::unwind_safe::AssertUnwindSafe<..>> () at /rustc/b940084d7eb6a299eb4bfeb8e34901
+#16 std::panic::catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<..>, core::result::Result<(), gcs_core::FfiError>> () at /rustc/b940084d7eb6a299eb4bfeb8e34901bc05
+#17 gcs_core::ffi_call<..> () at src/lib.rs:274
+#18 gcs_core::gcs_object_read_range () at src/lib.rs:491
+#19 0x00005555556657f2 in gcs_rust::ObjectDescriptor::Read(unsigned long, unsigned long, std::function<..> const&) const ()
+#20 0x0000555555665c8e in gcs_rust::ObjectDescriptor::ReadToString[abi:cxx11](unsigned long, unsigned long) const ()
+#21 0x00005555556611d9 in main ()

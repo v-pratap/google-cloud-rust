@@ -1,0 +1,3 @@
+# Appendable-object (BidiWrite) APIs are gated behind this cfg in google-cloud-rust.
+[build]
+rustflags = ["--cfg", "google_cloud_unstable_storage_bidi"]

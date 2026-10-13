@@ -1,0 +1,27 @@
+[0/2] Re-checking globbed directories...
+[0/8] cargo build (Rust core: google-cloud-storage + C ABI)
+    Finished `release` profile [optimized + debuginfo] target(s) in 0.13s
+[2/8] cbindgen -> gcs_core.h
+WARN: Skip gcs_core_ffi::OK - (not `pub`).
+WARN: Skip gcs_core_ffi::CANCELLED - (not `pub`).
+WARN: Skip gcs_core_ffi::UNKNOWN - (not `pub`).
+WARN: Skip gcs_core_ffi::INVALID_ARGUMENT - (not `pub`).
+WARN: Skip gcs_core_ffi::DEADLINE_EXCEEDED - (not `pub`).
+WARN: Skip gcs_core_ffi::NOT_FOUND - (not `pub`).
+WARN: Skip gcs_core_ffi::ALREADY_EXISTS - (not `pub`).
+WARN: Skip gcs_core_ffi::PERMISSION_DENIED - (not `pub`).
+WARN: Skip gcs_core_ffi::RESOURCE_EXHAUSTED - (not `pub`).
+WARN: Skip gcs_core_ffi::FAILED_PRECONDITION - (not `pub`).
+WARN: Skip gcs_core_ffi::ABORTED - (not `pub`).
+WARN: Skip gcs_core_ffi::OUT_OF_RANGE - (not `pub`).
+WARN: Skip gcs_core_ffi::UNIMPLEMENTED - (not `pub`).
+WARN: Skip gcs_core_ffi::INTERNAL - (not `pub`).
+WARN: Skip gcs_core_ffi::UNAVAILABLE - (not `pub`).
+WARN: Skip gcs_core_ffi::DATA_LOSS - (not `pub`).
+WARN: Skip gcs_core_ffi::UNAUTHENTICATED - (not `pub`).
+[3/8] Building CXX object CMakeFiles/json_min_wrapped.dir/cpp/examples/json_min_wrapped.cc.o
+[4/8] Building CXX object CMakeFiles/gcs_rust.dir/cpp/src/client.cc.o
+[5/8] Linking CXX static library libgcs_rust.a
+[6/8] Building CXX object CMakeFiles/quickstart.dir/cpp/examples/quickstart.cc.o
+[7/8] Linking CXX executable json_min_wrapped
+[8/8] Linking CXX executable quickstart

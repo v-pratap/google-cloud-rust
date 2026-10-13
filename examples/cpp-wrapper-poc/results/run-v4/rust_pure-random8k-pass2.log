@@ -1,0 +1,2 @@
+impl=rust_pure bucket=YOUR_RAPID_BUCKET workload=random8k iterations=200
+  random8k: 200 iterations in 48.9 s

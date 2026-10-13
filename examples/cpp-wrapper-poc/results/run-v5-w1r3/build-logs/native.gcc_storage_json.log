@@ -1,0 +1,573 @@
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17 - Failed
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC - Success
+-- Found OpenSSL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/lib/libcrypto.a (found version "3.6.5")  
+-- Found nlohmann_json: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.12.0") 
+-- Found CURL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/curl/CURLConfig.cmake (found suitable version "8.22.0", minimum required is "8.7.1")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/gcs-poc/measure/gcc-json
+[1/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_payload_keys.cc.o
+[2/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compute_engine_util.cc.o
+[3/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/url_encode.cc.o
+[4/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/build_info.cc.o
+[5/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/binary_data_as_debug_string.cc.o
+[6/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/getenv.cc.o
+[7/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/tracing_options.cc.o
+[8/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/subject_token.cc.o
+[9/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compiler_info.cc.o
+[10/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/strerror.cc.o
+[11/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/version.cc.o
+[12/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/noexcept_action.cc.o
+[13/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_future_status.cc.o
+[14/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/format_time_point.cc.o
+[15/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hmac.cc.o
+[16/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/random.cc.o
+[17/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/access_token.cc.o
+[18/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/terminate_handler.cc.o
+[19/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_utils.cc.o
+[20/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_policy_impl.cc.o
+[21/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hash.cc.o
+[22/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/auth_header_error.cc.o
+[23/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/api_client_header.cc.o
+[24/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/throw_delegate.cc.o
+[25/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_impl.cc.o
+[26/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/user_agent_prefix.cc.o
+[27/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/filesystem.cc.o
+[28/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/error_context.cc.o
+[29/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_writev.cc.o
+[30/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/parse_rfc3339.cc.o
+[31/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_application_default_credentials_file.cc.o
+[32/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/log_impl.cc.o
+[33/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/backoff_policy.cc.o
+[34/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_then_impl.cc.o
+[35/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/service_endpoint.cc.o
+[36/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_string.cc.o
+[37/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/invocation_id_generator.cc.o
+[38/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/status.cc.o
+[39/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/options.cc.o
+[40/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/make_jwt_assertion.cc.o
+[41/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/base64_transforms.cc.o
+[42/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/make_status.cc.o
+[43/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/credentials.cc.o
+[44/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/detect_gcp_impl.cc.o
+[45/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_refreshing_credentials_wrapper.cc.o
+[46/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_loop_helpers.cc.o
+[47/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/parse_service_account_p12_file.cc.o
+[48/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/sign_using_sha256.cc.o
+[49/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/ssl_ec_curves.cc.o
+[50/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/win32_helpers.cc.o
+[51/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/log.cc.o
+[52/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_wrappers.cc.o
+[53/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/ssl_ec_curves.cc.o
+[54/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_lro_helpers.cc.o
+[55/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/credentials_impl.cc.o
+[56/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/auto_finalize.cc.o
+[57/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_access_token_credentials.cc.o
+[58/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_anonymous_credentials.cc.o
+[59/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_response.cc.o
+[60/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_autoclass.cc.o
+[61/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_hierarchical_namespace.cc.o
+[62/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_http_payload.cc.o
+[63/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_api_key_credentials.cc.o
+[64/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_response.cc.o
+[65/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/timer_queue.cc.o
+[66/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/populate_rest_options.cc.o
+[67/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/http_header.cc.o
+[68/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/populate_common_options.cc.o
+[69/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_error_credentials.cc.o
+[70/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle.cc.o
+[71/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_cached_credentials.cc.o
+[72/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_iam_configuration.cc.o
+[73/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/ssl_ec_curves.cc.o
+[74/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_source_format.cc.o
+[75/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_logging.cc.o
+[76/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_object_retention.cc.o
+[77/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/sign_using_sha256.cc.o
+[78/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry_context.cc.o
+[79/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_soft_delete_policy.cc.o
+[80/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_retention_policy.cc.o
+[81/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_cors_entry.cc.o
+[82/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_custom_placement_config.cc.o
+[83/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/compute_engine_util.cc.o
+[84/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hmac_key_metadata.cc.o
+[85/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_logging_credentials.cc.o
+[86/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/empty_response.cc.o
+[87/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_universe_domain.cc.o
+[88/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/json_parsing.cc.o
+[89/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/const_buffer.cc.o
+[90/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/base64.cc.o
+[91/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle_factory.cc.o
+[92/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_carrier.cc.o
+[93/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_set_metadata.cc.o
+[94/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_response.cc.o
+[95/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generate_message_boundary.cc.o
+[96/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_credentials.cc.o
+[97/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_access_control.cc.o
+[98/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_context.cc.o
+[99/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/parse_service_account_p12_file.cc.o
+[100/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_values.cc.o
+[101/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/md5hash.cc.o
+[102/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_pure_completion_queue_impl.cc.o
+[103/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hashing_options.cc.o
+[104/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_read_metrics.cc.o
+[105/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry.cc.o
+[106/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_request.cc.o
+[107/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator_impl.cc.o
+[108/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_cache.cc.o
+[109/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/crc32c.cc.o
+[110/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/make_jwt_assertion.cc.o
+[111/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/http_response.cc.o
+[112/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/kms_key_name.cc.o
+[113/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/location.cc.o
+[114/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/project.cc.o
+[115/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_http_payload.cc.o
+[116/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/unified_rest_credentials.cc.o
+[117/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function_impl.cc.o
+[118/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/idempotency_policy.cc.o
+[119/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_impl.cc.o
+[120/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_opentelemetry.cc.o
+[121/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/openssl/hash_function_impl.cc.o
+[122/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_client.cc.o
+[123/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/object_read_source.cc.o
+[124/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/win32/hash_function_impl.cc.o
+[125/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_requests.cc.o
+[126/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_logging.cc.o
+[127/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_decorate_credentials.cc.o
+[128/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator.cc.o
+[129/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function.cc.o
+[130/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_adapter.cc.o
+[131/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_parse_json_error.cc.o
+[132/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_factory.cc.o
+[133/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/trace_propagator.cc.o
+[134/204] Linking CXX static library google/cloud/libgoogle_cloud_cpp_common.a
+[135/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_file.cc.o
+[136/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/request_builder.cc.o
+[137/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_retention.cc.o
+[138/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_read_streambuf.cc.o
+[139/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_client.cc.o
+[140/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_contexts.cc.o
+[141/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_authorized_user_credentials.cc.o
+[142/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder_details.cc.o
+[143/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/version.cc.o
+[144/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/metadata_parser.cc.o
+[145/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/request_project_id.cc.o
+[146/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/service_account.cc.o
+[147/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_access_control_parser.cc.o
+[148/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_url.cc.o
+[149/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_acl_requests.cc.o
+[150/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/lifecycle_rule.cc.o
+[151/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_object_read_source.cc.o
+[152/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_metadata.cc.o
+[153/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_parameters.cc.o
+[154/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/default_object_acl_requests.cc.o
+[155/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_credentials.cc.o
+[156/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/policy_document.cc.o
+[157/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_access_control.cc.o
+[158/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_headers.cc.o
+[159/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_metadata_parser.cc.o
+[160/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_impersonate_service_account_credentials.cc.o
+[161/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_regional_access_boundary_token_manager.cc.o
+[162/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/signed_url_requests.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:18:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[163/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_requests.cc.o
+[164/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_minimal_iam_credentials_rest.cc.o
+[165/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_metadata_parser.cc.o
+[166/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/lifecycle_rule_parser.cc.o
+[167/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_read_stream.cc.o
+[168/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_access_control_parser.cc.o
+[169/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_aws.cc.o
+[170/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_factory.cc.o
+[171/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_requests.cc.o
+[172/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_object_read_source.cc.o
+[173/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_acl_requests.cc.o
+[174/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_requests.cc.o
+[175/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/policy_document_request.cc.o
+[176/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_parser.cc.o
+[177/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder.cc.o
+[178/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/logging_stub.cc.o
+[179/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_service_account_credentials.cc.o
+[180/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/iam_policy.cc.o
+[181/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/notification_metadata.cc.o
+[182/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_compute_engine_credentials.cc.o
+[183/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_gdch_service_account_credentials.cc.o
+[184/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_buckets_reader.cc.o
+[185/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_write_streambuf.cc.o
+[186/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_metadata.cc.o
+[187/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_hmac_keys_reader.cc.o
+[188/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/sign_blob_requests.cc.o
+[189/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_objects_reader.cc.o
+[190/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_write_stream.cc.o
+[191/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_object_read_source.cc.o
+[192/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_metadata_parser.cc.o
+[193/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_rewriter.cc.o
+[194/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/storage_connection.cc.o
+[195/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_parser.cc.o
+[196/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_external_account_credentials.cc.o
+[197/204] Linking CXX static library google/cloud/libgoogle_cloud_cpp_rest_internal.a
+[198/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/client.cc.o
+[199/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_requests.cc.o
+[200/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_connection.cc.o
+[201/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/stub.cc.o
+[202/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_impl.cc.o
+[203/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/parallel_upload.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc: In lambda function:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:48:44: warning: ‘Crc32cChecksumValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   48 |               auto crc = request.GetOption<Crc32cChecksumValue>().value_or("");
+      |                                            ^~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.h:19,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:123:5: note: declared here
+  123 |     Crc32cChecksumValue
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:49:44: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   49 |               auto md5 = request.GetOption<MD5HashValue>().value_or("");
+      |                                            ^~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[204/204] Linking CXX static library google/cloud/storage/libgoogle_cloud_cpp_storage.a
+-- Install configuration: "Release"
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/libgoogle_cloud_cpp_common.a
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/access_token.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/backoff_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/common_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/experimental_tag.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/future.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/future_generic.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/future_void.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/idempotency.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/algorithm.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/api_client_header.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/attributes.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/auth_header_error.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/backoff_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/base64_transforms.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/big_endian.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/build_info.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/call_context.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/clock.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/compiler_info.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/compute_engine_util.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/credentials_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/debug_future_status.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/detect_gcp.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/detect_gcp_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/diagnostics_pop.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/diagnostics_push.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/disable_deprecation_warnings.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/disable_msvc_crt_secure_warnings.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/error_context.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/filesystem.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/format_time_point.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/future_base.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/future_coroutines.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/future_fwd.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/future_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/future_then_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/generic_background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/getenv.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/group_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/invocation_id_generator.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/invoke_result.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/ios_flags_saver.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/log_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/make_status.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/noexcept_action.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/non_constructible.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/opentelemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/opentelemetry_context.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/pagination_range.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/parse_rfc3339.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/populate_common_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/port_platform.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/random.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/retry_info.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/retry_loop_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/retry_policy_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/run_async_base.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/service_endpoint.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/sha256_hash.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/sha256_hmac.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/sha256_type.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/status_payload_keys.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/status_utils.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/strerror.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/subject_token.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/throw_delegate.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/timer_queue.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/trace_propagator.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/traced_stream_range.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/tuple.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/type_list.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/type_traits.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/url_encode.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/user_agent_prefix.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/utility.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/version_info.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/kms_key_name.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/location.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/log.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/no_await_tag.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/opentelemetry_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/optional.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/polling_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/ports_def.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/ports_undef.inc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/project.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/retry_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/rpc_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/ssl_certificate.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/status.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/status_or.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/stream_range.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/terminate_handler.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/tracing_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/universe_domain_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/version.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/pkgconfig/google_cloud_cpp_common.pc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/libgoogle_cloud_cpp_rest_internal.a
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/binary_data_as_debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_handle.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_handle_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_wrappers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/curl_writev.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/external_account_source_format.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/external_account_token_source_aws.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/external_account_token_source_file.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/external_account_token_source_url.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/http_header.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/json_parsing.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/make_jwt_assertion.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_access_token_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_anonymous_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_api_key_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_authorized_user_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_background_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_cached_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_compute_engine_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_credential_constants.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_decorate_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_error_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_external_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_external_account_token_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_gdch_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_google_application_default_credentials_file.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_google_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_http_client_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_impersonate_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_logging_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_minimal_iam_credentials_rest.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_refreshing_credentials_wrapper.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_regional_access_boundary_token_manager.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/oauth2_universe_domain.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/parse_service_account_p12_file.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/populate_rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_carrier.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_context.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_lro_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_opentelemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_parse_json_error.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_pure_background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_pure_completion_queue_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_request.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_retry_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/rest_set_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/sign_using_sha256.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/ssl_ec_curves.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/tracing_http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/tracing_rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/tracing_rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/unified_rest_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/internal/win32/win32_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/pkgconfig/google_cloud_cpp_rest_internal.pc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_storage/storage-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_storage/storage-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/libgoogle_cloud_cpp_storage.a
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/auto_finalize.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_access_control.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_autoclass.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_billing.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_cors_entry.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_custom_placement_config.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_encryption.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_hierarchical_namespace.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_iam_configuration.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_lifecycle.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_retention_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_rpo.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_soft_delete_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_versioning.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/bucket_website.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/client.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/download_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/enable_object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/hash_mismatch_error.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/hashing_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/headers_map.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/hmac_key_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/iam_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/idempotency_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/include_folders_as_prefixes.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/base64.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/binary_data_as_debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/bucket_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/bucket_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/bucket_metadata_cache.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/bucket_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/bucket_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/checksum_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/complex_option.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/compute_engine_util.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/connection_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/const_buffer.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/crc32c.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/curl/request.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/curl/request_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/default_object_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/empty_response.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generate_message_boundary.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generic_object_request.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generic_request.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generic_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generic_stub_adapter.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/generic_stub_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hash_function.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hash_function_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hash_validator.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hash_validator_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hash_values.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hedged_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hedged_read_metrics.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hedging_thread_pool.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hmac_key_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/hmac_key_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/http_response.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/lifecycle_rule_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/logging_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/make_jwt_assertion.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/md5hash.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/notification_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/notification_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_read_streambuf.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/object_write_streambuf.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/patch_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/patch_builder_details.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/policy_document_request.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/request_project_id.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/rest/object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/rest/request_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/rest/stub.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/retry_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/retry_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/service_account_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/service_account_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/sign_blob_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/signed_url_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/storage_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/tracing_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/tracing_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/tuple_filter.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/internal/well_known_parameters_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/lifecycle_rule.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/list_buckets_extended_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/list_buckets_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/list_hmac_keys_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/list_objects_and_prefixes_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/list_objects_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/notification_event_type.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/notification_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/notification_payload_format.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_access_control.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_contexts.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_read_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_rewriter.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/object_write_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/override_default_project.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/override_unlocked_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/owner.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/parallel_upload.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/policy_document.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/project_team.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/retry_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/service_account.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/signed_url_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/soft_deleted.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/storage_class.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/upload_options.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/user_ip_option.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/version.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/version_info.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/well_known_headers.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/well_known_parameters.h
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/pkgconfig/google_cloud_cpp_storage.pc
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_storage/google_cloud_cpp_storage-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/lib/cmake/google_cloud_cpp_storage/google_cloud_cpp_storage-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-json-install/include/google/cloud/storage/testing/mock_client.h

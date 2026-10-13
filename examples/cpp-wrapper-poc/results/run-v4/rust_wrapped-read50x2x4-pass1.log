@@ -1,0 +1,14 @@
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+impl=rust_wrapped bucket=YOUR_RAPID_BUCKET iterations=200 csv=rust_wrapped-read50x2x4-pass1.csv
+  read50x2x4: 200 iterations in 307.272 s  cpu=126.741 s  alloc=388994 MiB  rss start/end/peak=219/284/493 MiB
+
+SUMMARY impl=rust_wrapped
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+read50x2x4 APPENDABLE   209715200  200    0    670.35    795.36    940.45    681.35    298.63    324.00
+read50x2x4 DELETE       209715200  200    0     48.33     56.79     78.89     49.22      0.00      0.46
+read50x2x4 RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+read50x2x4 WORKLOAD_TOTAL          0    1    0 307272.12 307272.12 307272.12 307272.12      0.00 126741.00
+read50x2x4 read50x2x4   209715200  200    0    387.41    487.50    653.16    399.09    258.31    157.61
+read50x2x4 read50x2x4_in_core  209715200  200    0    385.79    535.38    705.65    406.29    259.53    149.62

@@ -1,0 +1,259 @@
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17 - Failed
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC - Success
+-- Found OpenSSL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/lib/libcrypto.a (found version "3.6.5")  
+-- Found nlohmann_json: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.12.0") 
+-- Found CURL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/curl/CURLConfig.cmake (found suitable version "8.22.0", minimum required is "8.7.1")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/gcs-poc/measure/gcc-j8
+[1/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/build_info.cc.o
+[2/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compiler_info.cc.o
+[3/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compute_engine_util.cc.o
+[4/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/access_token.cc.o
+[5/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/auth_header_error.cc.o
+[6/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/api_client_header.cc.o
+[7/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/backoff_policy.cc.o
+[8/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_future_status.cc.o
+[9/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/base64_transforms.cc.o
+[10/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/credentials.cc.o
+[11/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/error_context.cc.o
+[12/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/format_time_point.cc.o
+[13/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_string.cc.o
+[14/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/filesystem.cc.o
+[15/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_impl.cc.o
+[16/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/getenv.cc.o
+[17/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/detect_gcp_impl.cc.o
+[18/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/credentials_impl.cc.o
+[19/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/noexcept_action.cc.o
+[20/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_then_impl.cc.o
+[21/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/invocation_id_generator.cc.o
+[22/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/log_impl.cc.o
+[23/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/random.cc.o
+[24/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/parse_rfc3339.cc.o
+[25/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/make_status.cc.o
+[26/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_policy_impl.cc.o
+[27/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_payload_keys.cc.o
+[28/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hash.cc.o
+[29/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hmac.cc.o
+[30/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/strerror.cc.o
+[31/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/subject_token.cc.o
+[32/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/service_endpoint.cc.o
+[33/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_utils.cc.o
+[34/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_loop_helpers.cc.o
+[35/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/url_encode.cc.o
+[36/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/populate_common_options.cc.o
+[37/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry_context.cc.o
+[38/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/throw_delegate.cc.o
+[39/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/user_agent_prefix.cc.o
+[40/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/options.cc.o
+[41/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry.cc.o
+[42/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/timer_queue.cc.o
+[43/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/log.cc.o
+[44/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/terminate_handler.cc.o
+[45/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/tracing_options.cc.o
+[46/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/version.cc.o
+[47/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/binary_data_as_debug_string.cc.o
+[48/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/status.cc.o
+[49/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_http_payload.cc.o
+[50/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/kms_key_name.cc.o
+[51/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle.cc.o
+[52/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/location.cc.o
+[53/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/project.cc.o
+[54/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle_factory.cc.o
+[55/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_writev.cc.o
+[56/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/trace_propagator.cc.o
+[57/204] Linking CXX static library google/cloud/libgoogle_cloud_cpp_common.a
+[58/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_wrappers.cc.o
+[59/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_response.cc.o
+[60/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_source_format.cc.o
+[61/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_impl.cc.o
+[62/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/make_jwt_assertion.cc.o
+[63/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/http_header.cc.o
+[64/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/json_parsing.cc.o
+[65/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_access_token_credentials.cc.o
+[66/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_anonymous_credentials.cc.o
+[67/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_client.cc.o
+[68/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_api_key_credentials.cc.o
+[69/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_cached_credentials.cc.o
+[70/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_file.cc.o
+[71/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_url.cc.o
+[72/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_credentials.cc.o
+[73/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_error_credentials.cc.o
+[74/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_application_default_credentials_file.cc.o
+[75/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_aws.cc.o
+[76/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_decorate_credentials.cc.o
+[77/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_authorized_user_credentials.cc.o
+[78/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_logging_credentials.cc.o
+[79/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_refreshing_credentials_wrapper.cc.o
+[80/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_compute_engine_credentials.cc.o
+[81/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_credentials.cc.o
+[82/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_impersonate_service_account_credentials.cc.o
+[83/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_gdch_service_account_credentials.cc.o
+[84/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_universe_domain.cc.o
+[85/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/sign_using_sha256.cc.o
+[86/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/ssl_ec_curves.cc.o
+[87/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/parse_service_account_p12_file.cc.o
+[88/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/populate_rest_options.cc.o
+[89/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_lro_helpers.cc.o
+[90/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_regional_access_boundary_token_manager.cc.o
+[91/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_minimal_iam_credentials_rest.cc.o
+[92/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_carrier.cc.o
+[93/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_external_account_credentials.cc.o
+[94/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_context.cc.o
+[95/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_service_account_credentials.cc.o
+[96/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_response.cc.o
+[97/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/ssl_ec_curves.cc.o
+[98/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_pure_completion_queue_impl.cc.o
+[99/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_set_metadata.cc.o
+[100/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/parse_service_account_p12_file.cc.o
+[101/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/sign_using_sha256.cc.o
+[102/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/ssl_ec_curves.cc.o
+[103/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/win32_helpers.cc.o
+[104/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_request.cc.o
+[105/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/auto_finalize.cc.o
+[106/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_autoclass.cc.o
+[107/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_opentelemetry.cc.o
+[108/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_response.cc.o
+[109/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_hierarchical_namespace.cc.o
+[110/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_cors_entry.cc.o
+[111/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_access_control.cc.o
+[112/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_parse_json_error.cc.o
+[113/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_http_payload.cc.o
+[114/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_custom_placement_config.cc.o
+[115/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_iam_configuration.cc.o
+[116/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_logging.cc.o
+[117/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_object_retention.cc.o
+[118/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_retention_policy.cc.o
+[119/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_soft_delete_policy.cc.o
+[120/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hmac_key_metadata.cc.o
+[121/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/unified_rest_credentials.cc.o
+[122/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/base64.cc.o
+[123/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hashing_options.cc.o
+[124/204] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_client.cc.o
+[125/204] Linking CXX static library google/cloud/libgoogle_cloud_cpp_rest_internal.a
+[126/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/idempotency_policy.cc.o
+[127/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_cache.cc.o
+[128/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/compute_engine_util.cc.o
+[129/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_metadata.cc.o
+[130/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_access_control_parser.cc.o
+[131/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/const_buffer.cc.o
+[132/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_acl_requests.cc.o
+[133/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/iam_policy.cc.o
+[134/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/empty_response.cc.o
+[135/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/crc32c.cc.o
+[136/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generate_message_boundary.cc.o
+[137/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_factory.cc.o
+[138/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_requests.cc.o
+[139/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_adapter.cc.o
+[140/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/default_object_acl_requests.cc.o
+[141/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_factory.cc.o
+[142/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function_impl.cc.o
+[143/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/client.cc.o
+[144/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_parser.cc.o
+[145/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_values.cc.o
+[146/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator_impl.cc.o
+[147/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_read_metrics.cc.o
+[148/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function.cc.o
+[149/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/http_response.cc.o
+[150/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator.cc.o
+[151/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/make_jwt_assertion.cc.o
+[152/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/md5hash.cc.o
+[153/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_object_read_source.cc.o
+[154/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_metadata_parser.cc.o
+[155/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_requests.cc.o
+[156/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/metadata_parser.cc.o
+[157/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/lifecycle_rule_parser.cc.o
+[158/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/logging_stub.cc.o
+[159/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_metadata_parser.cc.o
+[160/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_read_streambuf.cc.o
+[161/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_access_control_parser.cc.o
+[162/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_requests.cc.o
+[163/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_impl.cc.o
+[164/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_acl_requests.cc.o
+[165/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/openssl/hash_function_impl.cc.o
+[166/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/object_read_source.cc.o
+[167/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder_details.cc.o
+[168/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_write_streambuf.cc.o
+[169/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/request_project_id.cc.o
+[170/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_metadata_parser.cc.o
+[171/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/request_builder.cc.o
+[172/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_logging.cc.o
+[173/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/policy_document_request.cc.o
+[174/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder.cc.o
+[175/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_requests.cc.o
+[176/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/signed_url_requests.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:18:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[177/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_requests.cc.o
+[178/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/win32/hash_function_impl.cc.o
+[179/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_parser.cc.o
+[180/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/sign_blob_requests.cc.o
+[181/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/lifecycle_rule.cc.o
+[182/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_object_read_source.cc.o
+[183/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_object_read_source.cc.o
+[184/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/storage_connection.cc.o
+[185/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_contexts.cc.o
+[186/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_buckets_reader.cc.o
+[187/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_access_control.cc.o
+[188/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_retention.cc.o
+[189/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/notification_metadata.cc.o
+[190/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_hmac_keys_reader.cc.o
+[191/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_objects_reader.cc.o
+[192/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/policy_document.cc.o
+[193/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_read_stream.cc.o
+[194/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/service_account.cc.o
+[195/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/version.cc.o
+[196/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/stub.cc.o
+[197/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_connection.cc.o
+[198/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_parameters.cc.o
+[199/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_metadata.cc.o
+[200/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_headers.cc.o
+[201/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_rewriter.cc.o
+[202/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_write_stream.cc.o
+[203/204] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/parallel_upload.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc: In lambda function:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:48:44: warning: ‘Crc32cChecksumValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   48 |               auto crc = request.GetOption<Crc32cChecksumValue>().value_or("");
+      |                                            ^~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.h:19,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:123:5: note: declared here
+  123 |     Crc32cChecksumValue
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:49:44: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   49 |               auto md5 = request.GetOption<MD5HashValue>().value_or("");
+      |                                            ^~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[204/204] Linking CXX static library google/cloud/storage/libgoogle_cloud_cpp_storage.a

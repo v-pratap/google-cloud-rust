@@ -1,0 +1,18 @@
+impl=native_cpp bucket=YOUR_RAPID_BUCKET iterations=200 csv=native_cpp-random8k.csv
+  random8k: 200 iterations in 55.1991 s  cpu=10.092 s  alloc=15761 MiB  rss start/end/peak=235/300/399 MiB
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+random8k   APPENDABLE      100000   64    0     67.70     81.51    102.07     70.07      1.41      1.45
+random8k   APPENDABLE     2097152   73    0     84.16    102.95    121.95     86.01     23.76      4.20
+random8k   APPENDABLE   100000000   63    0    348.23   1007.54   1027.94    499.79    273.86    130.22
+random8k   DELETE          100000   64    0     46.88     54.67     63.80     47.58      0.00      0.78
+random8k   DELETE         2097152   73    0     47.46     55.98     62.35     47.11      0.00      0.82
+random8k   DELETE       100000000   63    0     47.82     60.36     89.12     51.67      0.00      0.80
+random8k   RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+random8k   WORKLOAD_TOTAL          0    1    0  55199.05  55199.05  55199.05  55199.05      0.00  10091.98
+random8k   random8k        100000   64    0     14.55     22.40     29.16     15.61      0.54      0.94
+random8k   random8k       2097152   73    0     13.11     22.31     27.40     14.92      0.60      0.99
+random8k   random8k     100000000   63    0     15.04     27.59     42.84     17.15      0.52      1.09
