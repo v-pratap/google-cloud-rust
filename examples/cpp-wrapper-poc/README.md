@@ -33,7 +33,7 @@ pure Rust (no wrapper).
 | `rust/Cargo.toml` | Depends on `../../../src/storage` and `../../../src/gax` (this repo) |
 | `rust/cbindgen.toml` | Settings for generating `gcs_core.h` |
 | `rust/.cargo/config.toml` | Enables `--cfg google_cloud_unstable_storage_bidi` (required for appendable objects) |
-| `rust/examples/pure_rust_bench.rs` | The same gRPC workloads in pure Rust, to isolate wrapper overhead |
+| `rust/examples/pure_rust_bench.rs` | The same workloads (gRPC + w1r3 JSON) in pure Rust, to isolate wrapper overhead |
 | `cpp/include/gcs_rust/client.h`, `cpp/src/client.cc` | The thin C++ SDK veneer |
 | `cpp/examples/quickstart.cc` | End-to-end check: write → read back + verify → concurrent ranges → list → errors → delete |
 | `cpp/bench/ssb_workloads.h` | SSB-equivalent workloads: `open`, `random8k`, `read50x2x4`, `w1r3` |
@@ -105,6 +105,8 @@ then `vm_run_ssb.sh <rapid-bucket> <standard-bucket> [iterations]`.
 > network, not the client.
 
 ## Results (POC runs)
+
+> **Latest: [w1r3 JSON report](REPORT-w1r3.md)** — native C++ vs Rust-wrapped vs pure Rust, 200 iterations per size, CPU, RSS vs allocated memory, build time from scratch, binary and repo sizes, debugging experience.
 
 Environment: c2-standard-60 in us-west4-a, a RAPID (zonal) bucket in the same
 zone, and a STANDARD bucket for `w1r3`. Versions: google-cloud-rust `fe42ce042`

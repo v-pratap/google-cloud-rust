@@ -1,0 +1,18 @@
+core: gcs_core 0.1.0 (google-cloud-storage rust)
+impl=rust_wrapped bucket=YOUR_STANDARD_BUCKET iterations=200 csv=rust_wrapped-w1r3-2097152.csv
+  w1r3: 200 iterations in 49.367 s  cpu=3.87756 s  alloc=5099 MiB  rss start/end/peak=219/231/231 MiB
+
+SUMMARY impl=rust_wrapped
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+w1r3       DELETE         2097152  200    0     37.90     45.14     55.49     38.80      0.00      0.36
+w1r3       READ[0]        2097152  200    0     42.45     50.17     69.84     44.10     47.36      5.23
+w1r3       READ[1]        2097152  200    0     32.31     41.89     53.01     38.46     61.95      5.27
+w1r3       READ[2]        2097152  200    0     30.93     42.30     49.95     32.15     64.71      5.16
+w1r3       RESUMABLE      2097152   90    0    117.73    127.28    175.47    118.81     17.04      2.77
+w1r3       RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       SINGLE-SHOT    2097152  110    0     71.36     81.10     93.90     71.96     28.05      2.60
+w1r3       W1R3D1-RESUMABLE    2097152   90    0    264.66    283.59    335.12    265.31     30.28     19.12
+w1r3       W1R3D1-SINGLE-SHOT    2097152  110    0    220.59    239.60    439.05    231.66     36.37     19.12
+w1r3       WORKLOAD_TOTAL          0    1    0  49366.94  49366.94  49366.94  49366.94      0.00   3877.55

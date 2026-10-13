@@ -1,0 +1,17 @@
+impl=native_cpp bucket=YOUR_STANDARD_BUCKET iterations=25 csv=native_cpp-w1r3-100000000-r4.csv
+  w1r3: 25 iterations in 50.7433 s  cpu=13.2476 s  alloc=274 MiB  rss start/end/peak=238/247/247 MiB
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+w1r3       DELETE       100000000   25    0     38.05     45.11     52.33     39.22      0.00      0.36
+w1r3       READ[0]      100000000   25    0    381.98    489.12    523.20    391.89    249.66    132.04
+w1r3       READ[1]      100000000   25    0    363.65    418.56    618.68    376.82    262.25    132.82
+w1r3       READ[2]      100000000   25    0    361.04    413.14    495.08    356.26    264.15    130.84
+w1r3       RESUMABLE    100000000    7    0    870.29    896.76   1133.11    892.33    109.58    115.67
+w1r3       RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       SINGLE-SHOT  100000000   18    0    840.62   1028.00   1072.27    854.34    115.02    116.23
+w1r3       W1R3D1-RESUMABLE  100000000    7    0   1982.62   2060.90   2159.67   2001.92    192.41    502.61
+w1r3       W1R3D1-SINGLE-SHOT  100000000   18    0   2068.59   2259.27   2422.79   2040.47    194.30    523.27
+w1r3       WORKLOAD_TOTAL          0    1    0  50743.26  50743.26  50743.26  50743.26      0.00  13247.56

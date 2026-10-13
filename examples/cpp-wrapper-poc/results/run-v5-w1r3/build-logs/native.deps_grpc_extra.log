@@ -1,0 +1,183 @@
+Computing installation plan...
+The following packages will be built and installed:
+  * c-ares:x64-linux@1.34.8
+    grpc[codegen,core]:x64-linux@1.81.1
+    protobuf[core,libprotoc]:x64-linux@6.33.4#2
+  * re2:x64-linux@2025-11-05
+  * utf8-range:x64-linux@6.33.4
+Additional packages (*) will be modified to complete this operation.
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Installing 1/5 c-ares:x64-linux@1.34.8...
+c-ares:x64-linux@1.34.8 package ABI: b76cacfb2e693f2805b925379c21fb940f62215b6c00743168fc7462d05c3d92
+Building c-ares:x64-linux@1.34.8...
+Downloading https://github.com/c-ares/c-ares/archive/v1.34.8.tar.gz -> c-ares-c-ares-v1.34.8.tar.gz
+Successfully downloaded c-ares-c-ares-v1.34.8.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/c-ares-c-ares-v1.34.8.tar.gz
+-- Applying patch avoid-docs.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/c-ares/src/v1.34.8-6268a50809.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/c-ares_x64-linux/lib/pkgconfig/libcares.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/c-ares_x64-linux/debug/lib/pkgconfig/libcares.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/c-ares_x64-linux/share/c-ares/usage
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/c-ares_x64-linux/share/c-ares/copyright
+-- Performing post-build validation
+Elapsed time to handle c-ares:x64-linux: 11 s
+Installing 2/5 utf8-range:x64-linux@6.33.4...
+utf8-range:x64-linux@6.33.4 package ABI: a11f37cb86a0ab144f76cd4ecec5ad77c2850f0593c4dec9ed736d3777056e72
+Building utf8-range:x64-linux@6.33.4...
+Downloading https://github.com/protocolbuffers/protobuf/archive/v33.4.tar.gz -> protocolbuffers-protobuf-v33.4.tar.gz
+Successfully downloaded protocolbuffers-protobuf-v33.4.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/protocolbuffers-protobuf-v33.4.tar.gz
+-- Applying patch fix-cmake.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/utf8-range/src/v33.4-7b17d08241.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/utf8-range_x64-linux/lib/pkgconfig/utf8_range.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/utf8-range_x64-linux/debug/lib/pkgconfig/utf8_range.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/utf8-range_x64-linux/share/utf8-range/copyright
+-- Performing post-build validation
+Elapsed time to handle utf8-range:x64-linux: 1.8 s
+Installing 3/5 protobuf[core,libprotoc]:x64-linux@6.33.4#2...
+protobuf[core,libprotoc]:x64-linux@6.33.4#2 package ABI: aa5f90f461a282afa0da7316d6ad26d48112b3283668af0888994484662de218
+Building protobuf[core,libprotoc]:x64-linux@6.33.4#2...
+-- Using cached protocolbuffers-protobuf-v33.4.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/protocolbuffers-protobuf-v33.4.tar.gz
+-- Applying patch fix-static-build.patch
+-- Applying patch fix-default-proto-file-path.patch
+-- Applying patch fix-utf8-range.patch
+-- Applying patch fix-install-dirs.patch
+-- Applying patch fix-constinit-with-clang-cl.patch
+-- Applying patch fix-upb.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/protobuf/src/v33.4-f8b43d71cd.clean
+-- Configuring x64-linux
+CMake Warning at /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      protobuf_BUILD_TARGET_LIBPROTOC
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  ports/protobuf/portfile.cmake:51 (vcpkg_cmake_configure)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/lib/pkgconfig/protobuf-lite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/lib/pkgconfig/protobuf.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/lib/pkgconfig/upb.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/debug/lib/pkgconfig/protobuf-lite.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/debug/lib/pkgconfig/protobuf.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/debug/lib/pkgconfig/upb.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/share/protobuf/copyright
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/protobuf_x64-linux/tools/protobuf/protoc-33.4.0' (From '$ORIGIN/../lib' -> To '$ORIGIN:$ORIGIN/../../lib:$ORIGIN/../lib')
+-- Performing post-build validation
+Elapsed time to handle protobuf:x64-linux: 1.5 min
+Installing 4/5 re2:x64-linux@2025-11-05...
+re2:x64-linux@2025-11-05 package ABI: a6a2114ee6520a524869e289ae468c42f69a01d3a0bde055a4234a24484ae4e8
+Building re2:x64-linux@2025-11-05...
+Downloading https://github.com/google/re2/archive/927f5d53caf8111721e734cf24724686bb745f55.tar.gz -> google-re2-927f5d53caf8111721e734cf24724686bb745f55.tar.gz
+Successfully downloaded google-re2-927f5d53caf8111721e734cf24724686bb745f55.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/google-re2-927f5d53caf8111721e734cf24724686bb745f55.tar.gz
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/re2/src/86bb745f55-648e6b982e.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/re2_x64-linux/lib/pkgconfig/re2.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/re2_x64-linux/debug/lib/pkgconfig/re2.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/re2_x64-linux/share/re2/copyright
+-- Performing post-build validation
+Elapsed time to handle re2:x64-linux: 9.7 s
+Installing 5/5 grpc[codegen,core]:x64-linux@1.81.1...
+grpc[codegen,core]:x64-linux@1.81.1 package ABI: 7faed3af68ee17bd6425573f26d39f9b9f3758ff4d2a52bb8d25e88a2506713d
+Building grpc[codegen,core]:x64-linux@1.81.1...
+Downloading https://github.com/grpc/grpc/archive/v1.81.1.tar.gz -> grpc-grpc-v1.81.1.tar.gz
+Successfully downloaded grpc-grpc-v1.81.1.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/grpc-grpc-v1.81.1.tar.gz
+-- Applying patch 00001-fix-uwp.patch
+-- Applying patch 00002-static-linking-in-linux.patch
+-- Applying patch 00004-link-gdi32-on-windows.patch
+-- Applying patch 00005-fix-uwp-error.patch
+-- Applying patch 00006-utf8-range.patch
+-- Applying patch 00015-disable-download-archive.patch
+-- Applying patch 00016-fix-plugin-targets.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/grpc/src/v1.81.1-f067b41624.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/lib/pkgconfig/gpr.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/lib/pkgconfig/grpc++.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/lib/pkgconfig/grpc++_unsecure.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/lib/pkgconfig/grpc.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/lib/pkgconfig/grpc_unsecure.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/debug/lib/pkgconfig/gpr.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/debug/lib/pkgconfig/grpc++.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/debug/lib/pkgconfig/grpc++_unsecure.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/debug/lib/pkgconfig/grpc.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/debug/lib/pkgconfig/grpc_unsecure.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/share/grpc/copyright
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_cpp_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_csharp_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_node_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_objective_c_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_php_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_python_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/opt/gcs-poc/measure/vcpkg/packages/grpc_x64-linux/tools/grpc/grpc_ruby_plugin' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation
+Elapsed time to handle grpc:x64-linux: 6.5 min
+Total install time: 8.3 min
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+Apache-2.0
+BSD-3-Clause
+MIT
+protobuf provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(protobuf CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE protobuf::libupb protobuf::libprotoc protobuf::libprotobuf protobuf::libprotobuf-lite)
+
+protobuf provides pkg-config modules:
+
+  # Google's Data Interchange Format
+  protobuf-lite
+
+  # Google's Data Interchange Format
+  protobuf
+
+  # Google's Data Interchange Format
+  upb
+
+grpc provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(gRPC CONFIG REQUIRED)
+  # note: 20 additional targets are not displayed.
+  target_link_libraries(main PRIVATE gRPC::gpr gRPC::grpc gRPC::grpc++ gRPC::grpc++_alts)
+
+grpc provides pkg-config modules:
+
+  # gRPC platform support library
+  gpr
+
+  # C++ wrapper for gRPC
+  grpc++
+
+  # C++ wrapper for gRPC without SSL
+  grpc++_unsecure
+
+  # high performance general RPC framework
+  grpc
+
+  # high performance general RPC framework without SSL
+  grpc_unsecure
+
+All requested installations completed successfully in: 8.3 min

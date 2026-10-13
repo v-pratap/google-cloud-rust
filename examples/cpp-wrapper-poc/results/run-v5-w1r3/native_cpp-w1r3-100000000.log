@@ -1,0 +1,84 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791882534.837429    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22233: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882535.449625    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22409: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882536.114929    5937 chttp2_transport.cc:1376] ipv4:34.126.9.128:22316: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882536.507814    5938 chttp2_transport.cc:1376] ipv4:34.126.9.128:22469: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882537.681508    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22454: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882538.465100    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22200: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882539.414377    5930 chttp2_transport.cc:1376] ipv4:34.126.9.128:22731: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882540.206443    5936 chttp2_transport.cc:1376] ipv4:34.126.9.128:22578: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882540.921191    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22279: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882541.200732    5939 chttp2_transport.cc:1376] ipv4:34.126.9.128:22979: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882543.765895    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22148: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882544.434709    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22804: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882545.114224    5926 chttp2_transport.cc:1376] ipv4:34.126.9.128:22131: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882547.052787    5936 chttp2_transport.cc:1376] ipv4:34.126.9.128:22592: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882548.049073    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22857: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882549.020813    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22559: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882549.783063    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22416: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882550.528681    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22620: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882551.368449    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22677: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882552.048498    5926 chttp2_transport.cc:1376] ipv4:34.126.9.128:22113: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882552.085544    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22718: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882552.460679    5930 chttp2_transport.cc:1376] ipv4:34.126.9.128:22324: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882553.921135    5925 chttp2_transport.cc:1376] ipv4:34.126.9.128:22100: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.029471    5939 chttp2_transport.cc:1376] ipv4:34.126.9.128:22896: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.104180    5936 chttp2_transport.cc:1376] ipv4:34.126.9.128:22519: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.334120    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22483: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.450215    5939 chttp2_transport.cc:1376] ipv4:34.126.9.128:22962: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.485280    5934 chttp2_transport.cc:1376] ipv4:34.126.9.128:22011: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.758919    5937 chttp2_transport.cc:1376] ipv4:34.126.9.128:22034: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882554.934993    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22631: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882556.158530    5933 chttp2_transport.cc:1376] ipv4:34.126.9.128:22475: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882556.543152    5933 chttp2_transport.cc:1376] ipv4:34.126.9.128:22880: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882557.337069    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22951: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882557.377999    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22771: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882558.306703    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22439: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882559.786323    5926 chttp2_transport.cc:1376] ipv4:34.126.9.128:22625: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882560.533646    5927 chttp2_transport.cc:1376] ipv4:34.126.9.128:22291: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882562.997563    5934 chttp2_transport.cc:1376] ipv4:34.126.9.128:22260: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882564.373256    5927 chttp2_transport.cc:1376] ipv4:34.126.9.128:22080: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882564.482996    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22165: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882564.796225    5925 chttp2_transport.cc:1376] ipv4:34.126.9.128:22760: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882568.068208    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22173: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882568.463199    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22007: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882568.751720    5939 chttp2_transport.cc:1376] ipv4:34.126.9.128:22782: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882570.358556    5925 chttp2_transport.cc:1376] ipv4:34.126.9.128:22914: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882570.566254    5927 chttp2_transport.cc:1376] ipv4:34.126.9.128:22800: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882570.686016    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22397: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882571.576492    5937 chttp2_transport.cc:1376] ipv4:34.126.9.128:22997: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882571.775448    5925 chttp2_transport.cc:1376] ipv4:34.126.9.128:22653: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882573.853684    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22836: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882574.017833    5935 chttp2_transport.cc:1376] ipv4:34.126.9.128:22693: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882574.387980    5934 chttp2_transport.cc:1376] ipv4:34.126.9.128:22947: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882575.866582    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22359: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882576.054957    5927 chttp2_transport.cc:1376] ipv4:34.126.9.128:22305: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882576.619699    5927 chttp2_transport.cc:1376] ipv4:34.126.9.128:22725: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882576.661425    5933 chttp2_transport.cc:1376] ipv4:34.126.9.128:22538: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882577.477245    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22159: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882578.053826    5930 chttp2_transport.cc:1376] ipv4:34.126.9.128:22493: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882578.136378    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22336: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882578.880818    5932 chttp2_transport.cc:1376] ipv4:34.126.9.128:22089: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882578.893067    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22937: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882578.938501    5929 chttp2_transport.cc:1376] ipv4:34.126.9.128:22376: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882579.114134    5924 chttp2_transport.cc:1376] ipv4:34.126.9.128:22813: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882579.482570    5938 chttp2_transport.cc:1376] ipv4:34.126.9.128:22647: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882579.533531    5934 chttp2_transport.cc:1376] ipv4:34.126.9.128:22053: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+I0000 00:00:1791882579.740576    5930 chttp2_transport.cc:1376] ipv4:34.126.9.128:22211: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: connection idle {http2_error:2}
+impl=native_cpp bucket=YOUR_STANDARD_BUCKET iterations=200 csv=native_cpp-w1r3-100000000.csv
+  w1r3: 200 iterations in 421.456 s  cpu=110.978 s  alloc=2256 MiB  rss start/end/peak=238/251/251 MiB
+
+SUMMARY impl=native_cpp
+workload   op                size    n  err     p50ms     p90ms     p99ms      mean   MiB/s50   cpu50ms
+w1r3       DELETE       100000000  200    0     39.50     45.68     50.03     39.85      0.00      0.35
+w1r3       READ[0]      100000000  200    0    384.09    462.51    618.03    394.84    248.70    139.96
+w1r3       READ[1]      100000000  200    0    343.63    418.48    591.27    357.16    278.41    139.23
+w1r3       READ[2]      100000000  200    0    353.75    412.07    448.47    350.27    269.86    137.78
+w1r3       RESUMABLE    100000000   90    0    953.66   1194.09   1475.46    991.62    100.15    118.63
+w1r3       RSS_END              0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_PEAK             0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       RSS_START            0    1    0      0.00      0.00      0.00      0.00      0.00      0.00
+w1r3       SINGLE-SHOT  100000000  110    0    912.31   1116.22   1400.37    942.52    105.05    118.72
+w1r3       W1R3D1-RESUMABLE  100000000   90    0   2084.66   2474.58   2656.52   2135.69    183.22    534.17
+w1r3       W1R3D1-SINGLE-SHOT  100000000  110    0   2072.10   2287.54   3035.21   2083.99    184.29    540.85
+w1r3       WORKLOAD_TOTAL          0    1    0 421456.03 421456.03 421456.03 421456.03      0.00 110978.39

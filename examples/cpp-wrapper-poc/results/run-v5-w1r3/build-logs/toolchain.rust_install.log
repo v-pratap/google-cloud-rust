@@ -1,0 +1,9 @@
+rust-1.99.0-x86_64-unknown-linux-gnu.tar.xz: OK
+download_bytes 210462232
+install: creating uninstall script at /root/gcs-poc/measure/rust/lib/rustlib/uninstall.sh
+install: installing component 'rustc'
+install: installing component 'cargo'
+install: installing component 'rust-std-x86_64-unknown-linux-gnu'
+
+    rust installed.
+

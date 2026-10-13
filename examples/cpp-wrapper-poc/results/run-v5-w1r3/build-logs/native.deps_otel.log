@@ -1,0 +1,139 @@
+Computing installation plan...
+The following packages will be built and installed:
+    opentelemetry-cpp:x64-linux@1.29.0#1
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Installing 1/1 opentelemetry-cpp:x64-linux@1.29.0#1...
+opentelemetry-cpp:x64-linux@1.29.0#1 package ABI: c33962c68186b4c7d16deee79bfe6918bf65d9a475a81bfaa0d98a95e56eb677
+Building opentelemetry-cpp:x64-linux@1.29.0#1...
+Downloading https://github.com/open-telemetry/opentelemetry-cpp/archive/v1.29.0.tar.gz -> open-telemetry-opentelemetry-cpp-v1.29.0.tar.gz
+Successfully downloaded open-telemetry-opentelemetry-cpp-v1.29.0.tar.gz
+-- Extracting source /root/gcs-poc/measure/vcpkg-downloads/open-telemetry-opentelemetry-cpp-v1.29.0.tar.gz
+-- Applying patch fix-span-limits-32-bit.patch
+-- Applying patch fix-missing-cstdint.patch
+-- Using source at /opt/gcs-poc/measure/vcpkg/buildtrees/opentelemetry-cpp/src/v1.29.0-a7cfeb0d25.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_api.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_common.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_configuration_core.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_configuration_logs_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_configuration_metrics_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_configuration_registry_factory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_configuration_trace_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_in_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_in_memory_metric.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_logs.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_logs_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_metrics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_metrics_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_span.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_exporter_ostream_span_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_instrumentation_scope.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_logs.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_metrics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_resources.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_trace.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/lib/pkgconfig/opentelemetry_version.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_api.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_common.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_configuration_core.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_configuration_logs_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_configuration_metrics_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_configuration_registry_factory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_configuration_trace_builders.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_in_memory.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_in_memory_metric.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_logs.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_logs_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_metrics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_metrics_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_span.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_exporter_ostream_span_builder.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_instrumentation_scope.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_logs.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_metrics.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_resources.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_trace.pc
+-- Fixing pkgconfig file: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/debug/lib/pkgconfig/opentelemetry_version.pc
+-- Installing: /opt/gcs-poc/measure/vcpkg/packages/opentelemetry-cpp_x64-linux/share/opentelemetry-cpp/copyright
+-- Performing post-build validation
+Elapsed time to handle opentelemetry-cpp:x64-linux: 27 s
+Total install time: 27 s
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+Apache-2.0
+opentelemetry-cpp provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(opentelemetry-cpp CONFIG REQUIRED)
+  # note: 19 additional targets are not displayed.
+  target_link_libraries(main PRIVATE opentelemetry-cpp::api opentelemetry-cpp::ext opentelemetry-cpp::sdk opentelemetry-cpp::logs)
+
+opentelemetry-cpp provides pkg-config modules:
+
+  # A header-only library to support instrumentation with OpenTelemetry.
+  opentelemetry_api
+
+  # Common components for the OpenTelemetry SDK, a library for exporting telemetry.
+  opentelemetry_common
+
+  # Programmatic configuration model, registry, and SDK builder.
+  opentelemetry_configuration_core
+
+  # Default logs SDK component builders for programmatic configuration.
+  opentelemetry_configuration_logs_builders
+
+  # Default metrics SDK component builders for programmatic configuration.
+  opentelemetry_configuration_metrics_builders
+
+  # Registry factory pre-populated with default SDK component builders.
+  opentelemetry_configuration_registry_factory
+
+  # Default trace SDK component builders for programmatic configuration.
+  opentelemetry_configuration_trace_builders
+
+  # In-memory span exporter for testing and debugging.
+  opentelemetry_exporter_in_memory
+
+  # In-memory metric exporter for testing and debugging.
+  opentelemetry_exporter_in_memory_metric
+
+  # Exports log records to output stream.
+  opentelemetry_exporter_ostream_logs
+
+  # Builder for OStream log record exporter.
+  opentelemetry_exporter_ostream_logs_builder
+
+  # Exports metrics to output stream.
+  opentelemetry_exporter_ostream_metrics
+
+  # Builder for OStream metrics exporter.
+  opentelemetry_exporter_ostream_metrics_builder
+
+  # Exports trace spans to output stream.
+  opentelemetry_exporter_ostream_span
+
+  # Builder for OStream span exporter.
+  opentelemetry_exporter_ostream_span_builder
+
+  # Instrumentation Scope components for the OpenTelemetry SDK, a library for exporting telemetry.
+  opentelemetry_instrumentation_scope
+
+  # Components for exporting logs in the OpenTelemetry SDK.
+  opentelemetry_logs
+
+  # Components for exporting metrics in the OpenTelemetry SDK.
+  opentelemetry_metrics
+
+  # Components for resource detection in the OpenTelemetry SDK.
+  opentelemetry_resources
+
+  # Components for exporting traces in the OpenTelemetry SDK.
+  opentelemetry_trace
+
+  # A library exporting version information for OpenTelemetry.
+  opentelemetry_version
+
+All requested installations completed successfully in: 27 s

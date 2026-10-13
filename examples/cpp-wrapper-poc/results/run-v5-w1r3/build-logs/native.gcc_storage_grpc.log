@@ -1,0 +1,1697 @@
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ZLIB: /root/gcs-poc/measure/vcpkg-installed/x64-linux/lib/libz.a (found version "1.3.2") 
+-- Found OpenSSL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/lib/libcrypto.a (found version "3.6.5")  
+-- Found c-ares: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/c-ares/c-ares-config.cmake (found version "1.34.8") 
+-- Found RE2 via CMake.
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WALL - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WEXTRA - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WCONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WNO_SIGN_CONVERSION - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_WERROR - Success
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_CLANG_ABI_COMPAT_17 - Failed
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC
+-- Performing Test GOOGLE_CLOUD_CPP_COMPILER_SUPPORTS_PEDANTIC - Success
+-- Found nlohmann_json: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.12.0") 
+-- Found CURL: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/curl/CURLConfig.cmake (found suitable version "8.22.0", minimum required is "8.7.1")  
+-- Found opentelemetry-cpp: /root/gcs-poc/measure/vcpkg-installed/x64-linux/share/opentelemetry-cpp/opentelemetry-cpp-config.cmake (found version "1.29.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/gcs-poc/measure/gcc-grpc
+[1/646] Creating directories for 'googleapis_download'
+[2/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_payload_keys.cc.o
+[3/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compute_engine_util.cc.o
+[4/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/url_encode.cc.o
+[5/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/build_info.cc.o
+[6/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/binary_data_as_debug_string.cc.o
+[7/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/getenv.cc.o
+[8/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/compiler_info.cc.o
+[9/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/tracing_options.cc.o
+[10/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/subject_token.cc.o
+[11/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/strerror.cc.o
+[12/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/version.cc.o
+[13/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/noexcept_action.cc.o
+[14/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_future_status.cc.o
+[15/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/format_time_point.cc.o
+[16/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hmac.cc.o
+[17/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/random.cc.o
+[18/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/access_token.cc.o
+[19/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/sha256_hash.cc.o
+[20/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/status_utils.cc.o
+[21/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/terminate_handler.cc.o
+[22/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_policy_impl.cc.o
+[23/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/throw_delegate.cc.o
+[24/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/auth_header_error.cc.o
+[25/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/api_client_header.cc.o
+[26/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/user_agent_prefix.cc.o
+[27/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_impl.cc.o
+[28/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/filesystem.cc.o
+[29/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/error_context.cc.o
+[30/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/parse_rfc3339.cc.o
+[31/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_application_default_credentials_file.cc.o
+[32/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/backoff_policy.cc.o
+[33/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/future_then_impl.cc.o
+[34/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/log_impl.cc.o
+[35/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_writev.cc.o
+[36/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/service_endpoint.cc.o
+[37/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/status.cc.o
+[38/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/debug_string.cc.o
+[39/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/base64_transforms.cc.o
+[40/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/invocation_id_generator.cc.o
+[41/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/make_jwt_assertion.cc.o
+[42/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/options.cc.o
+[43/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/make_status.cc.o
+[44/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/credentials.cc.o
+[45/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/detect_gcp_impl.cc.o
+[46/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/retry_loop_helpers.cc.o
+[47/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_refreshing_credentials_wrapper.cc.o
+[48/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/log.cc.o
+[49/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/credentials_impl.cc.o
+[50/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_wrappers.cc.o
+[51/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/parse_service_account_p12_file.cc.o
+[52/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/sign_using_sha256.cc.o
+[53/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/ssl_ec_curves.cc.o
+[54/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/win32/win32_helpers.cc.o
+[55/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/ssl_ec_curves.cc.o
+[56/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_lro_helpers.cc.o
+[57/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_anonymous_credentials.cc.o
+[58/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/auto_finalize.cc.o
+[59/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_response.cc.o
+[60/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/populate_common_options.cc.o
+[61/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_access_token_credentials.cc.o
+[62/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_autoclass.cc.o
+[63/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_response.cc.o
+[64/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_api_key_credentials.cc.o
+[65/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/timer_queue.cc.o
+[66/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_http_payload.cc.o
+[67/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_error_credentials.cc.o
+[68/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/http_header.cc.o
+[69/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle.cc.o
+[70/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/populate_rest_options.cc.o
+[71/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_cached_credentials.cc.o
+[72/646] Performing download step (download, verify and extract) for 'googleapis_download'
+-- Downloading...
+   dst='/root/gcs-poc/measure/gcc-grpc/external/googleapis/src/28769825ec5fa31815f172b0de490a84e74cb97a.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/googleapis/googleapis/archive/28769825ec5fa31815f172b0de490a84e74cb97a.tar.gz'
+-- verifying file...
+       file='/root/gcs-poc/measure/gcc-grpc/external/googleapis/src/28769825ec5fa31815f172b0de490a84e74cb97a.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/root/gcs-poc/measure/gcc-grpc/external/googleapis/src/28769825ec5fa31815f172b0de490a84e74cb97a.tar.gz'
+     dst='/root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[73/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_source_format.cc.o
+[74/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_logging.cc.o
+[75/646] No update step for 'googleapis_download'
+[76/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_hierarchical_namespace.cc.o
+[77/646] No patch step for 'googleapis_download'
+[78/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_object_retention.cc.o
+[79/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/ssl_ec_curves.cc.o
+[80/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_iam_configuration.cc.o
+[81/646] No configure step for 'googleapis_download'
+[82/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry_context.cc.o
+[83/646] No build step for 'googleapis_download'
+[84/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/sign_using_sha256.cc.o
+[85/646] No install step for 'googleapis_download'
+[86/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_retention_policy.cc.o
+[87/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_soft_delete_policy.cc.o
+[88/646] Completed 'googleapis_download'
+[89/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_custom_placement_config.cc.o
+[90/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/backend.proto
+[91/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_cors_entry.cc.o
+[92/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/config_change.proto
+[93/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/backend.proto
+[94/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/consumer.proto
+[95/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/config_change.proto
+[96/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/compute_engine_util.cc.o
+[97/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_universe_domain.cc.o
+[98/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hmac_key_metadata.cc.o
+[99/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/consumer.proto
+[100/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/context.proto
+[101/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/json_parsing.cc.o
+[102/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_logging_credentials.cc.o
+[103/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/context.proto
+[104/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/documentation.proto
+[105/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/empty_response.cc.o
+[106/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_handle_factory.cc.o
+[107/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/documentation.proto
+[108/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/error_reason.proto
+[109/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/const_buffer.cc.o
+[110/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/error_reason.proto
+[111/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/base64.cc.o
+[112/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_carrier.cc.o
+[113/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/field_behavior.proto
+[114/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/field_behavior.proto
+[115/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_set_metadata.cc.o
+[116/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_credentials.cc.o
+[117/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/field_info.proto
+[118/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/field_info.proto
+[119/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_response.cc.o
+[120/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_context.cc.o
+[121/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/http.proto
+[122/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/http.proto
+[123/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/openssl/parse_service_account_p12_file.cc.o
+[124/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_access_control.cc.o
+[125/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/httpbody.proto
+[126/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/httpbody.proto
+[127/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_pure_completion_queue_impl.cc.o
+[128/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/opentelemetry.cc.o
+[129/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/label.proto
+[130/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/label.proto
+[131/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/hashing_options.cc.o
+[132/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_request.cc.o
+[133/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/launch_stage.proto
+[134/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/launch_stage.proto
+[135/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_cache.cc.o
+[136/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/crc32c.cc.o
+[137/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/policy.proto
+[138/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/policy.proto
+[139/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/kms_key_name.cc.o
+[140/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/project.cc.o
+[141/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/resource.proto
+[142/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/location.cc.o
+[143/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/resource.proto
+[144/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/routing.proto
+[145/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_http_payload.cc.o
+[146/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/routing.proto
+[147/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/unified_rest_credentials.cc.o
+[148/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_impl.cc.o
+[149/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/source_info.proto
+[150/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/source_info.proto
+[151/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/idempotency_policy.cc.o
+[152/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_config_change_protos.dir/google/api/config_change.pb.cc.o
+[153/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/system_parameter.proto
+[154/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/system_parameter.proto
+[155/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_error_reason_protos.dir/google/api/error_reason.pb.cc.o
+[156/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_consumer_protos.dir/google/api/consumer.pb.cc.o
+[157/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/visibility.proto
+[158/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/visibility.proto
+[159/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_opentelemetry.cc.o
+[160/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_context_protos.dir/google/api/context.pb.cc.o
+[161/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/extended_operations.proto
+[162/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/extended_operations.proto
+[163/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_documentation_protos.dir/google/api/documentation.pb.cc.o
+[164/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/curl_rest_client.cc.o
+[165/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/orgpolicy/v1/orgpolicy.proto
+[166/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/orgpolicy/v1/orgpolicy.proto
+[167/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_common.dir/internal/trace_propagator.cc.o
+[168/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/rest_parse_json_error.cc.o
+[169/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/code.proto
+[170/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/code.proto
+[171/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_httpbody_protos.dir/google/api/httpbody.pb.cc.o
+[172/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_field_behavior_protos.dir/google/api/field_behavior.pb.cc.o
+[173/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_decorate_credentials.cc.o
+[174/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/context/attribute_context.proto
+[175/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_label_protos.dir/google/api/label.pb.cc.o
+[176/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/context/attribute_context.proto
+[177/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/error_details.proto
+[178/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/error_details.proto
+[179/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_http_protos.dir/google/api/http.pb.cc.o
+[180/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_launch_stage_protos.dir/google/api/launch_stage.pb.cc.o
+[181/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/calendar_period.proto
+[182/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/calendar_period.proto
+[183/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_backend_protos.dir/google/api/backend.pb.cc.o
+[184/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_file.cc.o
+[185/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/color.proto
+[186/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/color.proto
+[187/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_field_info_protos.dir/google/api/field_info.pb.cc.o
+[188/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/tracing_rest_client.cc.o
+[189/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/date.proto
+[190/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/date.proto
+[191/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_context_protos.dir/google/api/context.grpc.pb.cc.o
+[192/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_context_protos.a
+[193/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_consumer_protos.dir/google/api/consumer.grpc.pb.cc.o
+[194/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_consumer_protos.a
+[195/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_backend_protos.dir/google/api/backend.grpc.pb.cc.o
+[196/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/datetime.proto
+[197/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_config_change_protos.dir/google/api/config_change.grpc.pb.cc.o
+[198/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/datetime.proto
+[199/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_backend_protos.a
+[200/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_config_change_protos.a
+[201/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/dayofweek.proto
+[202/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/dayofweek.proto
+[203/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_authorized_user_credentials.cc.o
+[204/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_documentation_protos.dir/google/api/documentation.grpc.pb.cc.o
+[205/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_documentation_protos.a
+[206/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/decimal.proto
+[207/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/decimal.proto
+[208/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_field_behavior_protos.dir/google/api/field_behavior.grpc.pb.cc.o
+[209/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_error_reason_protos.dir/google/api/error_reason.grpc.pb.cc.o
+[210/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_field_behavior_protos.a
+[211/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_error_reason_protos.a
+[212/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/expr.proto
+[213/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_access_control_parser.cc.o
+[214/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/fraction.proto
+[215/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/expr.proto
+[216/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/fraction.proto
+[217/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_field_info_protos.dir/google/api/field_info.grpc.pb.cc.o
+[218/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_field_info_protos.a
+[219/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_url.cc.o
+[220/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_http_protos.dir/google/api/http.grpc.pb.cc.o
+[221/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_http_protos.a
+[222/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/interval.proto
+[223/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/interval.proto
+[224/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_policy_protos.dir/google/api/policy.pb.cc.o
+[225/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_source_info_protos.dir/google/api/source_info.pb.cc.o
+[226/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/latlng.proto
+[227/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/latlng.proto
+[228/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_httpbody_protos.dir/google/api/httpbody.grpc.pb.cc.o
+[229/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_httpbody_protos.a
+[230/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/bucket_metadata.cc.o
+[231/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/localized_text.proto
+[232/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/localized_text.proto
+[233/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_google_credentials.cc.o
+[234/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_launch_stage_protos.dir/google/api/launch_stage.grpc.pb.cc.o
+[235/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_resource_protos.dir/google/api/resource.pb.cc.o
+[236/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/money.proto
+[237/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_launch_stage_protos.a
+[238/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/month.proto
+[239/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/money.proto
+[240/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/month.proto
+[241/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_impersonate_service_account_credentials.cc.o
+[242/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_routing_protos.dir/google/api/routing.pb.cc.o
+[243/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/default_object_acl_requests.cc.o
+[244/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_acl_requests.cc.o
+[245/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/phone_number.proto
+[246/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/phone_number.proto
+[247/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/postal_address.proto
+[248/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_regional_access_boundary_token_manager.cc.o
+[249/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/postal_address.proto
+[250/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_policy_protos.dir/google/api/policy.grpc.pb.cc.o
+[251/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_policy_protos.a
+[252/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_label_protos.dir/google/api/label.grpc.pb.cc.o
+[253/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_label_protos.a
+[254/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/quaternion.proto
+[255/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/quaternion.proto
+[256/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_system_parameter_protos.dir/google/api/system_parameter.pb.cc.o
+[257/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_code_protos.dir/google/rpc/code.pb.cc.o
+[258/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/timeofday.proto
+[259/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_resource_protos.dir/google/api/resource.grpc.pb.cc.o
+[260/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/type/timeofday.proto
+[261/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_resource_protos.a
+[262/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_routing_protos.dir/google/api/routing.grpc.pb.cc.o
+[263/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_visibility_protos.dir/google/api/visibility.pb.cc.o
+[264/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_routing_protos.a
+[265/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/annotations.proto
+[266/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/annotations.proto
+[267/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/client.proto
+[268/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_calendar_period_protos.dir/google/type/calendar_period.pb.cc.o
+[269/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/client.proto
+[270/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_extended_operations_protos.dir/google/cloud/extended_operations.pb.cc.o
+[271/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_gdch_service_account_credentials.cc.o
+[272/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/control.proto
+[273/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/control.proto
+[274/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_factory.cc.o
+[275/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_minimal_iam_credentials_rest.cc.o
+[276/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/metric.proto
+[277/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_color_protos.dir/google/type/color.pb.cc.o
+[278/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/log.proto
+[279/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/metric.proto
+[280/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/log.proto
+[281/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.dir/google/cloud/orgpolicy/v1/orgpolicy.pb.cc.o
+[282/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_requests.cc.o
+[283/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/external_account_token_source_aws.cc.o
+[284/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/monitored_resource.proto
+[285/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_date_protos.dir/google/type/date.pb.cc.o
+[286/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_dayofweek_protos.dir/google/type/dayofweek.pb.cc.o
+[287/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/monitored_resource.proto
+[288/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/resource_policy_member.proto
+[289/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/resource_policy_member.proto
+[290/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_source_info_protos.dir/google/api/source_info.grpc.pb.cc.o
+[291/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_source_info_protos.a
+[292/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_system_parameter_protos.dir/google/api/system_parameter.grpc.pb.cc.o
+[293/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_system_parameter_protos.a
+[294/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/credentials/v1/common.proto
+[295/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_service_account_credentials.cc.o
+[296/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/credentials/v1/common.proto
+[297/646] Linking CXX static library google/cloud/libgoogle_cloud_cpp_common.a
+[298/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_decimal_protos.dir/google/type/decimal.pb.cc.o
+[299/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_datetime_protos.dir/google/type/datetime.pb.cc.o
+[300/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/iam_policy.cc.o
+[301/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_expr_protos.dir/google/type/expr.pb.cc.o
+[302/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_visibility_protos.dir/google/api/visibility.grpc.pb.cc.o
+[303/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_visibility_protos.a
+[304/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_extended_operations_protos.dir/google/cloud/extended_operations.grpc.pb.cc.o
+[305/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_cloud_extended_operations_protos.a
+[306/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_fraction_protos.dir/google/type/fraction.pb.cc.o
+[307/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_interval_protos.dir/google/type/interval.pb.cc.o
+[308/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.dir/google/cloud/orgpolicy/v1/orgpolicy.grpc.pb.cc.o
+[309/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.a
+[310/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_code_protos.dir/google/rpc/code.grpc.pb.cc.o
+[311/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_rpc_code_protos.a
+[312/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_latlng_protos.dir/google/type/latlng.pb.cc.o
+[313/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generate_message_boundary.cc.o
+[314/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_localized_text_protos.dir/google/type/localized_text.pb.cc.o
+[315/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_compute_engine_credentials.cc.o
+[316/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_month_protos.dir/google/type/month.pb.cc.o
+[317/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_error_details_protos.dir/google/rpc/error_details.grpc.pb.cc.o
+[318/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_date_protos.dir/google/type/date.grpc.pb.cc.o
+[319/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_money_protos.dir/google/type/money.pb.cc.o
+[320/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_calendar_period_protos.dir/google/type/calendar_period.grpc.pb.cc.o
+[321/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_date_protos.a
+[322/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_calendar_period_protos.a
+[323/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_context_attribute_context_protos.dir/google/rpc/context/attribute_context.grpc.pb.cc.o
+[324/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_values.cc.o
+[325/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_datetime_protos.dir/google/type/datetime.grpc.pb.cc.o
+[326/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_datetime_protos.a
+[327/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_quaternion_protos.dir/google/type/quaternion.pb.cc.o
+[328/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_dayofweek_protos.dir/google/type/dayofweek.grpc.pb.cc.o
+[329/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_dayofweek_protos.a
+[330/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_phone_number_protos.dir/google/type/phone_number.pb.cc.o
+[331/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/md5hash.cc.o
+[332/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_read_metrics.cc.o
+[333/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_postal_address_protos.dir/google/type/postal_address.pb.cc.o
+[334/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator_impl.cc.o
+[335/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_color_protos.dir/google/type/color.grpc.pb.cc.o
+[336/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_timeofday_protos.dir/google/type/timeofday.pb.cc.o
+[337/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_color_protos.a
+[338/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_decimal_protos.dir/google/type/decimal.grpc.pb.cc.o
+[339/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_decimal_protos.a
+[340/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_expr_protos.dir/google/type/expr.grpc.pb.cc.o
+[341/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_expr_protos.a
+[342/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_fraction_protos.dir/google/type/fraction.grpc.pb.cc.o
+[343/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_fraction_protos.a
+[344/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_error_details_protos.dir/google/rpc/error_details.pb.cc.o
+[345/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_rpc_error_details_protos.a
+[346/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/status.proto
+[347/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/rpc/status.proto
+[348/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/make_jwt_assertion.cc.o
+[349/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/http_response.cc.o
+[350/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_interval_protos.dir/google/type/interval.grpc.pb.cc.o
+[351/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_interval_protos.a
+[352/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_context_attribute_context_protos.dir/google/rpc/context/attribute_context.pb.cc.o
+[353/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.a
+[354/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_latlng_protos.dir/google/type/latlng.grpc.pb.cc.o
+[355/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_latlng_protos.a
+[356/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_log_protos.dir/google/api/log.pb.cc.o
+[357/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_localized_text_protos.dir/google/type/localized_text.grpc.pb.cc.o
+[358/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_localized_text_protos.a
+[359/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_money_protos.dir/google/type/money.grpc.pb.cc.o
+[360/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function_impl.cc.o
+[361/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_money_protos.a
+[362/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_annotations_protos.dir/google/api/annotations.pb.cc.o
+[363/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_month_protos.dir/google/type/month.grpc.pb.cc.o
+[364/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_month_protos.a
+[365/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_phone_number_protos.dir/google/type/phone_number.grpc.pb.cc.o
+[366/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/win32/hash_function_impl.cc.o
+[367/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_phone_number_protos.a
+[368/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_postal_address_protos.dir/google/type/postal_address.grpc.pb.cc.o
+[369/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_postal_address_protos.a
+[370/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_quaternion_protos.dir/google/type/quaternion.grpc.pb.cc.o
+[371/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_quaternion_protos.a
+[372/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_control_protos.dir/google/api/control.pb.cc.o
+[373/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_resource_policy_member_protos.dir/google/iam/v1/resource_policy_member.pb.cc.o
+[374/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_type_timeofday_protos.dir/google/type/timeofday.grpc.pb.cc.o
+[375/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_requests.cc.o
+[376/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_type_timeofday_protos.a
+[377/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/object_read_source.cc.o
+[378/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/openssl/hash_function_impl.cc.o
+[379/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_annotations_protos.dir/google/api/annotations.grpc.pb.cc.o
+[380/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_annotations_protos.a
+[381/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/auth.proto
+[382/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/auth.proto
+[383/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_logging.cc.o
+[384/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_validator.cc.o
+[385/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/distribution.proto
+[386/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/distribution.proto
+[387/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_control_protos.dir/google/api/control.grpc.pb.cc.o
+[388/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_control_protos.a
+[389/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_factory.cc.o
+[390/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/endpoint.proto
+[391/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/endpoint.proto
+[392/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/bucket_metadata_parser.cc.o
+[393/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hash_function.cc.o
+[394/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_log_protos.dir/google/api/log.grpc.pb.cc.o
+[395/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_retention.cc.o
+[396/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/logging.proto
+[397/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/monitoring.proto
+[398/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_log_protos.a
+[399/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/monitoring.proto
+[400/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/logging.proto
+[401/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/quota.proto
+[402/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_monitored_resource_protos.dir/google/api/monitored_resource.pb.cc.o
+[403/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_metric_protos.dir/google/api/metric.grpc.pb.cc.o
+[404/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/quota.proto
+[405/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_client_protos.dir/google/api/client.grpc.pb.cc.o
+[406/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_metric_protos.dir/google/api/metric.pb.cc.o
+[407/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/generic_stub_adapter.cc.o
+[408/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/usage.proto
+[409/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_metric_protos.a
+[410/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/usage.proto
+[411/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/billing.proto
+[412/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_contexts.cc.o
+[413/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/billing.proto
+[414/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_resource_policy_member_protos.dir/google/iam/v1/resource_policy_member.grpc.pb.cc.o
+[415/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_monitored_resource_protos.dir/google/api/monitored_resource.grpc.pb.cc.o
+[416/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_monitored_resource_protos.a
+[417/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_v1_resource_policy_member_protos.a
+[418/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/options.proto
+[419/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/options.proto
+[420/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/request_builder.cc.o
+[421/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_credentials_v1_common_protos.dir/google/iam/credentials/v1/common.grpc.pb.cc.o
+[422/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_credentials_v1_common_protos.dir/google/iam/credentials/v1/common.pb.cc.o
+[423/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/policy.proto
+[424/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.a
+[425/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/policy.proto
+[426/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_read_streambuf.cc.o
+[427/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder_details.cc.o
+[428/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_status_protos.dir/google/rpc/status.pb.cc.o
+[429/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/lifecycle_rule.cc.o
+[430/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/metadata_parser.cc.o
+[431/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_internal.dir/internal/oauth2_external_account_credentials.cc.o
+[432/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/request_project_id.cc.o
+[433/646] Linking CXX static library google/cloud/libgoogle_cloud_cpp_rest_internal.a
+[434/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_access_control.cc.o
+[435/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/version.cc.o
+[436/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/service_account.cc.o
+[437/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/signed_url_requests.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:18:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[438/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hedged_object_read_source.cc.o
+[439/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/client.cc.o
+[440/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_rpc_status_protos.dir/google/rpc/status.grpc.pb.cc.o
+[441/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_rpc_status_protos.a
+[442/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/common/operation_metadata.proto
+[443/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/common/operation_metadata.proto
+[444/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/policy_document.cc.o
+[445/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_parameters.cc.o
+[446/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_object_read_source.cc.o
+[447/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/well_known_headers.cc.o
+[448/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_read_stream.cc.o
+[449/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_metadata_parser.cc.o
+[450/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_client_protos.dir/google/api/client.pb.cc.o
+[451/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_client_protos.a
+[452/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/credentials/v1/iamcredentials.proto
+[453/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/location/locations.proto
+[454/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/credentials/v1/iamcredentials.proto
+[455/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/cloud/location/locations.proto
+[456/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/longrunning/operations.proto
+[457/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/longrunning/operations.proto
+[458/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_logging_protos.dir/google/api/logging.pb.cc.o
+[459/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_access_control_parser.cc.o
+[460/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_endpoint_protos.dir/google/api/endpoint.pb.cc.o
+[461/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/hmac_key_requests.cc.o
+[462/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_metadata_parser.cc.o
+[463/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/service_account_parser.cc.o
+[464/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/notification_requests.cc.o
+[465/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_billing_protos.dir/google/api/billing.pb.cc.o
+[466/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_monitoring_protos.dir/google/api/monitoring.pb.cc.o
+[467/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_options_protos.dir/google/iam/v1/options.pb.cc.o
+[468/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_usage_protos.dir/google/api/usage.pb.cc.o
+[469/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_acl_requests.cc.o
+[470/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/policy_document_request.cc.o
+[471/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/lifecycle_rule_parser.cc.o
+[472/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_hmac_keys_reader.cc.o
+[473/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/logging_stub.cc.o
+[474/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_buckets_reader.cc.o
+[475/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_auth_protos.dir/google/api/auth.pb.cc.o
+[476/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/notification_metadata.cc.o
+[477/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_write_streambuf.cc.o
+[478/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/sign_blob_requests.cc.o
+[479/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_distribution_protos.dir/google/api/distribution.pb.cc.o
+[480/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_monitoring_protos.dir/google/api/monitoring.grpc.pb.cc.o
+[481/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_monitoring_protos.a
+[482/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_endpoint_protos.dir/google/api/endpoint.grpc.pb.cc.o
+[483/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_endpoint_protos.a
+[484/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/patch_builder.cc.o
+[485/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_metadata.cc.o
+[486/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_distribution_protos.dir/google/api/distribution.grpc.pb.cc.o
+[487/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_auth_protos.dir/google/api/auth.grpc.pb.cc.o
+[488/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_distribution_protos.a
+[489/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_auth_protos.a
+[490/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_quota_protos.dir/google/api/quota.pb.cc.o
+[491/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_quota_protos.dir/google/api/quota.grpc.pb.cc.o
+[492/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_quota_protos.a
+[493/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/list_objects_reader.cc.o
+[494/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_logging_protos.dir/google/api/logging.grpc.pb.cc.o
+[495/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_logging_protos.a
+[496/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_policy_protos.dir/google/iam/v1/policy.grpc.pb.cc.o
+[497/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_billing_protos.dir/google/api/billing.grpc.pb.cc.o
+[498/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_billing_protos.a
+[499/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_usage_protos.dir/google/api/usage.grpc.pb.cc.o
+[500/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_usage_protos.a
+[501/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/service.proto
+[502/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/api/service.proto
+[503/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_rewriter.cc.o
+[504/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_options_protos.dir/google/iam/v1/options.grpc.pb.cc.o
+[505/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_v1_options_protos.a
+[506/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/retry_object_read_source.cc.o
+[507/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_policy_protos.dir/google/iam/v1/policy.pb.cc.o
+[508/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_v1_policy_protos.a
+[509/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/iam_policy.proto
+[510/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/iam/v1/iam_policy.proto
+[511/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/object_write_stream.cc.o
+[512/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_common_common_protos.dir/google/cloud/common/operation_metadata.pb.cc.o
+[513/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_common_common_protos.dir/google/cloud/common/operation_metadata.grpc.pb.cc.o
+[514/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_cloud_common_common_protos.a
+[515/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/storage_connection.cc.o
+[516/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_metadata_parser.cc.o
+[517/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_credentials_v1_iamcredentials_protos.dir/google/iam/credentials/v1/iamcredentials.pb.cc.o
+[518/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/connection_impl.cc.o
+[519/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_location_locations_protos.dir/google/cloud/location/locations.pb.cc.o
+[520/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/streaming_write_rpc_impl.cc.o
+[521/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_longrunning_operations_protos.dir/google/longrunning/operations.pb.cc.o
+[522/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/debug_string_protobuf.cc.o
+[523/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_request_metadata.cc.o
+[524/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/debug_string_status.cc.o
+[525/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/time_utils.cc.o
+[526/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_protobuf_internal.dir/internal/rest_stub_helpers.cc.o
+[527/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/grpc_error_delegate.cc.o
+[528/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_protobuf_internal.dir/internal/rest_completion_queue_impl.cc.o
+[529/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_cloud_location_locations_protos.dir/google/cloud/location/locations.grpc.pb.cc.o
+[530/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/streaming_read_rpc.cc.o
+[531/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_cloud_location_locations_protos.a
+[532/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_longrunning_operations_protos.dir/google/longrunning/operations.grpc.pb.cc.o
+[533/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_longrunning_operations_protos.a
+[534/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_iam_policy_protos.dir/google/iam/v1/iam_policy.pb.cc.o
+[535/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/object_requests.cc.o
+[536/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_service_protos.dir/google/api/service.pb.cc.o
+[537/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/extract_long_running_result.cc.o
+[538/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/tracing_connection.cc.o
+[539/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/completion_queue.cc.o
+[540/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_api_service_protos.dir/google/api/service.grpc.pb.cc.o
+[541/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_protobuf_internal.dir/internal/rest_background_threads_impl.cc.o
+[542/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_api_service_protos.a
+[543/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_service_account_authentication.cc.o
+[544/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/default_completion_queue_impl.cc.o
+[545/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/async_connection_ready.cc.o
+[546/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_credentials_v1_iamcredentials_protos.dir/google/iam/credentials/v1/iamcredentials.grpc.pb.cc.o
+[547/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.a
+[548/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/populate_grpc_options.cc.o
+[549/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_opentelemetry.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/internal/grpc_opentelemetry.cc: In function ‘opentelemetry::v1::nostd::shared_ptr<opentelemetry::v1::trace::Span> google::cloud::v3_11::internal::MakeSpanGrpc(opentelemetry::v1::nostd::string_view, opentelemetry::v1::nostd::string_view)’:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/internal/grpc_opentelemetry.cc:116:18: warning: ‘opentelemetry::v1::semconv::rpc::kRpcSystem’ is deprecated [-Wdeprecated-declarations]
+  116 |       {{sc::rpc::kRpcSystem, sc::rpc::RpcSystemValues::kGrpc},
+      |                  ^~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/internal/grpc_opentelemetry.cc:27:
+/opt/gcs-poc/measure/vcpkg-installed/x64-linux/include/opentelemetry/semconv/incubating/rpc_attributes.h:240:55: note: declared here
+  240 | OPENTELEMETRY_DEPRECATED static constexpr const char *kRpcSystem = "rpc.system";
+      |                                                       ^~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/internal/grpc_opentelemetry.cc:117:18: warning: ‘opentelemetry::v1::semconv::rpc::kRpcService’ is deprecated [-Wdeprecated-declarations]
+  117 |        {sc::rpc::kRpcService, service},
+      |                  ^~~~~~~~~~~
+/opt/gcs-poc/measure/vcpkg-installed/x64-linux/include/opentelemetry/semconv/incubating/rpc_attributes.h:231:55: note: declared here
+  231 | OPENTELEMETRY_DEPRECATED static constexpr const char *kRpcService = "rpc.service";
+      |                                                       ^~~~~~~~~~~
+[550/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/log_wrapper.cc.o
+[551/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/connection_options.cc.o
+[552/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_api_key_authentication.cc.o
+[553/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/internal/rest/stub.cc.o
+[554/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_compute_engine_authentication.cc.o
+[555/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_access_token_authentication.cc.o
+[556/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/grpc_options.cc.o
+[557/646] Building CXX object external/googleapis/CMakeFiles/google_cloud_cpp_iam_v1_iam_policy_protos.dir/google/iam/v1/iam_policy.grpc.pb.cc.o
+[558/646] Linking CXX static library external/googleapis/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.a
+[559/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_channel_credentials_authentication.cc.o
+[560/646] Running C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/storage/v2/storage.proto
+[561/646] Running gRPC C++ protocol buffer compiler on /root/gcs-poc/measure/gcc-grpc/external/googleapis/src/googleapis_download/google/storage/v2/storage.proto
+[562/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/metrics_exporter_options.cc.o
+[563/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/metrics_exporter_impl.cc.o
+[564/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/metrics_meter_provider.cc.o
+[565/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/monitoring_project.cc.o
+[566/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_async_access_token_cache.cc.o
+[567/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/token_impl.cc.o
+[568/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/metrics_histograms.cc.o
+[569/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/enable_metrics.cc.o
+[570/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/bucket_name.cc.o
+[571/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/resume_policy.cc.o
+[572/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/unified_grpc_credentials.cc.o
+[573/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/scale_stall_timeout.cc.o
+[574/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/bucket_name.cc.o
+[575/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/async_polling_loop.cc.o
+[576/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/buffer_read_object_data.cc.o
+[577/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/make_cord.cc.o
+[578/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_rest_protobuf_internal.dir/internal/async_rest_polling_loop.cc.o
+[579/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/minimal_iam_credentials_stub.cc.o
+[580/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage.dir/parallel_upload.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc: In lambda function:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:48:44: warning: ‘Crc32cChecksumValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   48 |               auto crc = request.GetOption<Crc32cChecksumValue>().value_or("");
+      |                                            ^~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.h:19,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:123:5: note: declared here
+  123 |     Crc32cChecksumValue
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/parallel_upload.cc:49:44: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   49 |               auto md5 = request.GetOption<MD5HashValue>().value_or("");
+      |                                            ^~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[581/646] Linking CXX static library google/cloud/storage/libgoogle_cloud_cpp_storage.a
+[582/646] Building CXX object google/cloud/CMakeFiles/google_cloud_cpp_grpc_utils.dir/internal/grpc_impersonate_service_account.cc.o
+[583/646] Linking CXX static library google/cloud/libgoogle_cloud_cpp_grpc_utils.a
+[584/646] Linking CXX static library google/cloud/libgoogle_cloud_cpp_rest_protobuf_internal.a
+[585/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/synthetic_self_link.cc.o
+[586/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/object_responses.cc.o
+[587/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/idempotency_policy.cc.o
+[588/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/handle_redirect_error.cc.o
+[589/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/owner_parser.cc.o
+[590/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/reader_connection_factory.cc.o
+[591/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/split_write_object_data.cc.o
+[592/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/object_descriptor.cc.o
+[593/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/object_descriptor_reader.cc.o
+[594/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/multi_stream_manager.cc.o
+[595/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/writer_connection_finalized.cc.o
+[596/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/channel_refresh.cc.o
+[597/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/read_range.cc.o
+[598/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/object_access_control_parser.cc.o
+[599/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/default_options.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:21,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/grpc_plugin.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/grpc/default_options.cc:16:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[600/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/bucket_access_control_parser.cc.o
+[601/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/object_descriptor_connection_tracing.cc.o
+[602/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/default_options.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/default_options.cc: In function ‘google::cloud::v3_11::Options google::cloud::storage_internal::v3_11::DefaultOptionsAsync(google::cloud::v3_11::Options)’:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/default_options.cc:78:25: warning: ‘EnableCrc32cValidationOption’ is deprecated: Use UploadChecksumValidationOption and DownloadChecksumValidationOption instead [-Wdeprecated-declarations]
+   78 |           .set<storage::EnableCrc32cValidationOption>(true)
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/default_options.cc:17:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:39:16: note: declared here
+   39 |     "instead") EnableCrc32cValidationOption {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[603/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/object_metadata_parser.cc.o
+[604/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/reader.cc.o
+[605/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/open_stream.cc.o
+[606/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/reader_connection_tracing.cc.o
+[607/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/sign_blob_request_parser.cc.o
+[608/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/writer.cc.o
+[609/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/object_read_source.cc.o
+[610/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/object_descriptor_reader_tracing.cc.o
+[611/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/partial_upload.cc.o
+[612/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/rewriter.cc.o
+[613/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/rewriter_connection_tracing.cc.o
+[614/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/read_all.cc.o
+[615/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/writer_connection_buffered.cc.o
+[616/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/reader_connection_resume.cc.o
+[617/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/reader_connection_impl.cc.o
+[618/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/channel_telemetry.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:21,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/grpc_plugin.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/grpc/channel_telemetry.cc:16:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[619/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/insert_object.cc.o
+[620/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/bucket_metadata_parser.cc.o
+[621/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/writer_connection_tracing.cc.o
+[622/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/bucket_request_parser.cc.o
+[623/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/grpc_plugin.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:21,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/grpc_plugin.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/grpc_plugin.cc:15:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[624/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/configure_client_context.cc.o
+[625/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/write_object.cc.o
+[626/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_round_robin_decorator.cc.o
+[627/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_protos.dir/google/storage/v2/storage.grpc.pb.cc.o
+[628/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_stub_factory.cc.o
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:21,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/grpc_plugin.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/storage_stub_factory.cc:16:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/signed_url_requests.h:180:39: warning: ‘MD5HashValue’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  180 |   void SetOption(MD5HashValue const& o) {
+      |                                       ^
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/options.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/request_project_id.h:18,
+                 from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/client.h:20:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/hashing_options.h:54:5: note: declared here
+   54 |     MD5HashValue : public internal::ComplexOption<MD5HashValue, std::string> {
+      |     ^~~~~~~~~~~~
+[629/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/writer_connection_resumed.cc.o
+[630/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/writer_connection_impl.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc: In member function ‘virtual google::cloud::v3_11::future<google::cloud::v3_11::StatusOr<google::storage::v2::Object> > google::cloud::storage_internal::v3_11::AsyncWriterConnectionImpl::Finalize(google::cloud::storage::v3_11::WritePayload)’:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:160:44: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  160 |     if (merged.has<google::cloud::storage::UseCrc32cValueOption>()) {
+      |                                            ^~~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:16:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:162:46: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  162 |           merged.get<google::cloud::storage::UseCrc32cValueOption>());
+      |                                              ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:166:47: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  166 |                  .has<google::cloud::storage::UseCrc32cValueOption>() ||
+      |                                               ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:167:58: warning: ‘UseMD5ValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  167 |              current_options.has<google::cloud::storage::UseMD5ValueOption>()) {
+      |                                                          ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:85:5: note: declared here
+   85 |     UseMD5ValueOption {
+      |     ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:172:53: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  172 |     if (current_options.has<google::cloud::storage::UseCrc32cValueOption>()) {
+      |                                                     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:174:55: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  174 |           current_options.get<google::cloud::storage::UseCrc32cValueOption>());
+      |                                                       ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:176:53: warning: ‘UseMD5ValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  176 |     if (current_options.has<google::cloud::storage::UseMD5ValueOption>()) {
+      |                                                     ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:85:5: note: declared here
+   85 |     UseMD5ValueOption {
+      |     ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/writer_connection_impl.cc:178:55: warning: ‘UseMD5ValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  178 |           current_options.get<google::cloud::storage::UseMD5ValueOption>());
+      |                                                       ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:85:5: note: declared here
+   85 |     UseMD5ValueOption {
+      |     ^~~~~~~~~~~~~~~~~
+[631/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_metadata_decorator.cc.o
+[632/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/rewriter_connection_impl.cc.o
+[633/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_protos.dir/google/storage/v2/storage.pb.cc.o
+[634/646] Linking CXX static library google/cloud/storage/libgoogle_cloud_cpp_storage_protos.a
+[635/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/object_request_parser.cc.o
+[636/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/object_descriptor_impl.cc.o
+[637/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/async/client.cc.o
+[638/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/open_object.cc.o
+[639/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/connection_tracing.cc.o
+[640/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/grpc/stub.cc.o
+[641/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_stub.cc.o
+[642/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_auth_decorator.cc.o
+[643/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_logging_decorator.cc.o
+[644/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/storage_tracing_stub.cc.o
+[645/646] Building CXX object google/cloud/storage/CMakeFiles/google_cloud_cpp_storage_grpc.dir/internal/async/connection_impl.cc.o
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc: In function ‘std::unique_ptr<google::cloud::storage::v3_11::internal::HashFunction> google::cloud::storage_internal::v3_11::{anonymous}::CreateHashFunction(const google::cloud::v3_11::Options&, const google::cloud::storage_internal::v3_11::ChecksumSettings&)’:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc:94:28: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   94 |   if (options.has<storage::UseCrc32cValueOption>()) {
+      |                            ^~~~~~~~~~~~~~~~~~~~
+In file included from /root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc:17:
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc:97:50: warning: ‘UseCrc32cValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+   97 |             Crc32cFromProto(options.get<storage::UseCrc32cValueOption>()),
+      |                                                  ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:54:5: note: declared here
+   54 |     UseCrc32cValueOption {
+      |     ^~~~~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc:104:28: warning: ‘UseMD5ValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  104 |   if (options.has<storage::UseMD5ValueOption>()) {
+      |                            ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:85:5: note: declared here
+   85 |     UseMD5ValueOption {
+      |     ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/internal/async/connection_impl.cc:108:47: warning: ‘UseMD5ValueOption’ is deprecated: Use PrecomputedChecksumsOption instead [-Wdeprecated-declarations]
+  108 |             MD5FromProto(options.get<storage::UseMD5ValueOption>())});
+      |                                               ^~~~~~~~~~~~~~~~~
+/root/gcs-poc/measure/google-cloud-cpp/google/cloud/storage/async/options.h:85:5: note: declared here
+   85 |     UseMD5ValueOption {
+      |     ^~~~~~~~~~~~~~~~~
+[646/646] Linking CXX static library google/cloud/storage/libgoogle_cloud_cpp_storage_grpc.a
+-- Install configuration: "Release"
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_cloud_common_common_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_v1_options_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_v1_policy_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_iam_v1_resource_policy_member_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_longrunning_operations_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_annotations_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_auth_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_backend_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_billing_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_client_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_config_change_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_consumer_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_context_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_control_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_distribution_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_documentation_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_endpoint_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_error_reason_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_field_behavior_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_field_info_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_http_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_httpbody_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_label_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_launch_stage_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_log_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_logging_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_metric_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_monitored_resource_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_monitoring_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_policy_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_quota_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_resource_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_routing_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_service_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_source_info_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_system_parameter_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_usage_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_api_visibility_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_cloud_extended_operations_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_cloud_location_locations_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rpc_code_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rpc_error_details_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rpc_status_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_calendar_period_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_color_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_date_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_datetime_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_dayofweek_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_decimal_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_expr_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_fraction_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_interval_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_latlng_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_localized_text_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_money_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_month_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_phone_number_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_postal_address_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_quaternion_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_type_timeofday_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/common/operation_metadata.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/common/operation_metadata.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/common/operation_metadata.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/common.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/common.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/common.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/iamcredentials.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/iamcredentials.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/credentials/v1/iamcredentials.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/iam_policy.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/iam_policy.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/iam_policy.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/options.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/options.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/options.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/policy.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/policy.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/policy.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/resource_policy_member.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/resource_policy_member.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/iam/v1/resource_policy_member.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/longrunning/operations.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/longrunning/operations.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/longrunning/operations.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/annotations.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/annotations.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/annotations.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/auth.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/auth.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/auth.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/backend.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/backend.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/backend.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/billing.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/billing.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/billing.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/client.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/client.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/client.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/config_change.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/config_change.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/config_change.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/consumer.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/consumer.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/consumer.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/context.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/context.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/context.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/control.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/control.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/control.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/distribution.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/distribution.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/distribution.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/documentation.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/documentation.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/documentation.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/endpoint.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/endpoint.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/endpoint.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/error_reason.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/error_reason.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/error_reason.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_behavior.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_behavior.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_behavior.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_info.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_info.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/field_info.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/http.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/http.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/http.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/httpbody.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/httpbody.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/httpbody.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/label.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/label.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/label.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/launch_stage.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/launch_stage.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/launch_stage.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/log.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/log.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/log.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/logging.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/logging.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/logging.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/metric.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/metric.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/metric.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitored_resource.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitored_resource.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitored_resource.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitoring.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitoring.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/monitoring.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/policy.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/policy.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/policy.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/quota.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/quota.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/quota.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/resource.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/resource.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/resource.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/routing.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/routing.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/routing.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/service.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/service.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/service.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/source_info.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/source_info.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/source_info.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/system_parameter.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/system_parameter.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/system_parameter.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/usage.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/usage.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/usage.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/visibility.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/visibility.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/api/visibility.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/extended_operations.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/extended_operations.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/extended_operations.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/location/locations.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/location/locations.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/location/locations.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/orgpolicy/v1/orgpolicy.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/orgpolicy/v1/orgpolicy.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/orgpolicy/v1/orgpolicy.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/code.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/code.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/code.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/context/attribute_context.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/context/attribute_context.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/context/attribute_context.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/error_details.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/error_details.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/error_details.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/status.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/status.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/rpc/status.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/calendar_period.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/calendar_period.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/calendar_period.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/color.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/color.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/color.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/date.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/date.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/date.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/datetime.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/datetime.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/datetime.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/dayofweek.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/dayofweek.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/dayofweek.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/decimal.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/decimal.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/decimal.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/expr.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/expr.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/expr.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/fraction.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/fraction.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/fraction.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/interval.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/interval.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/interval.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/latlng.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/latlng.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/latlng.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/localized_text.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/localized_text.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/localized_text.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/money.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/money.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/money.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/month.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/month.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/month.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/phone_number.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/phone_number.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/phone_number.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/postal_address.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/postal_address.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/postal_address.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/quaternion.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/quaternion.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/quaternion.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/timeofday.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/timeofday.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/type/timeofday.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_cloud_common_common_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_credentials_v1_common_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_credentials_v1_iamcredentials_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_v1_iam_policy_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_v1_options_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_v1_policy_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_iam_v1_resource_policy_member_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_longrunning_operations_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_annotations_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_auth_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_backend_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_billing_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_client_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_config_change_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_consumer_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_context_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_control_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_distribution_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_documentation_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_endpoint_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_error_reason_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_field_behavior_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_field_info_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_http_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_httpbody_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_label_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_launch_stage_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_log_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_logging_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_metric_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_monitored_resource_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_monitoring_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_policy_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_quota_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_resource_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_routing_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_service_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_source_info_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_system_parameter_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_usage_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_api_visibility_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_cloud_extended_operations_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_cloud_location_locations_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rpc_code_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rpc_context_attribute_context_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rpc_error_details_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rpc_status_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_calendar_period_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_color_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_date_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_datetime_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_dayofweek_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_decimal_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_expr_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_fraction_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_interval_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_latlng_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_localized_text_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_money_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_month_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_phone_number_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_postal_address_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_quaternion_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_type_timeofday_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/googleapis-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/googleapis-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/google_cloud_cpp_googleapis-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/google_cloud_cpp_googleapis-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/FindgRPC.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_googleapis/CompileProtos.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_common.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/access_token.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/backoff_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/common_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/experimental_tag.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/future.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/future_generic.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/future_void.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/idempotency.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/algorithm.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/api_client_header.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/attributes.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/auth_header_error.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/backoff_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/base64_transforms.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/big_endian.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/build_info.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/call_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/clock.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/compiler_info.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/compute_engine_util.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/credentials_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/debug_future_status.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/detect_gcp.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/detect_gcp_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/diagnostics_pop.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/diagnostics_push.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/disable_deprecation_warnings.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/disable_msvc_crt_secure_warnings.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/error_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/filesystem.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/format_time_point.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/future_base.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/future_coroutines.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/future_fwd.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/future_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/future_then_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/generic_background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/getenv.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/group_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/invocation_id_generator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/invoke_result.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/ios_flags_saver.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/log_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/make_status.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/noexcept_action.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/non_constructible.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/opentelemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/opentelemetry_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/pagination_range.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/parse_rfc3339.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/populate_common_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/port_platform.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/random.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/retry_info.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/retry_loop_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/retry_policy_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/run_async_base.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/service_endpoint.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/sha256_hash.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/sha256_hmac.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/sha256_type.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/status_payload_keys.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/status_utils.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/strerror.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/subject_token.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/throw_delegate.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/timer_queue.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/trace_propagator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/traced_stream_range.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/tuple.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/type_list.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/type_traits.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/url_encode.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/user_agent_prefix.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/utility.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/version_info.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/kms_key_name.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/location.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/log.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/no_await_tag.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/opentelemetry_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/optional.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/polling_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/ports_def.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/ports_undef.inc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/project.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/retry_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/rpc_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/ssl_certificate.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/status.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/status_or.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/stream_range.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/terminate_handler.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/tracing_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/universe_domain_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/version.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_common.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_common/google_cloud_cpp_common-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_grpc_utils/grpc_utils-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_grpc_utils/grpc_utils-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_grpc_utils.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/async_operation.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/async_streaming_read_write_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/background_threads.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/completion_queue.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/connection_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/grpc_error_delegate.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/grpc_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/iam_updater.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_connection_ready.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_long_running_operation.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_polling_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_stream_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_write_stream_auth.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_write_stream_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_write_stream_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_write_stream_timeout.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_read_write_stream_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_retry_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_retry_unary_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rpc_details.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc_auth.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc_timeout.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_read_rpc_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc_auth.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc_timeout.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_streaming_write_rpc_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/completion_queue_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/debug_string_protobuf.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/debug_string_status.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/default_completion_queue_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/extract_long_running_result.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_access_token_authentication.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_api_key_authentication.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_async_access_token_cache.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_channel_credentials_authentication.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_compute_engine_authentication.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_impersonate_service_account.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_metadata_view.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_opentelemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_request_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/grpc_service_account_authentication.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/log_wrapper.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/minimal_iam_credentials_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/operation_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/populate_grpc_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/resumable_streaming_read_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/retry_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/routing_matcher.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/setup_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_read_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_read_rpc_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_read_rpc_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_write_rpc.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_write_rpc_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_write_rpc_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/streaming_write_rpc_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/time_utils.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/unified_grpc_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_grpc_utils.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_grpc_utils/google_cloud_cpp_grpc_utils-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_grpc_utils/google_cloud_cpp_grpc_utils-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rest_internal.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/binary_data_as_debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_handle.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_handle_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_wrappers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/curl_writev.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/external_account_source_format.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/external_account_token_source_aws.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/external_account_token_source_file.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/external_account_token_source_url.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/http_header.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/json_parsing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/make_jwt_assertion.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_access_token_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_anonymous_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_api_key_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_authorized_user_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_background_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_cached_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_compute_engine_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_credential_constants.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_decorate_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_error_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_external_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_external_account_token_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_gdch_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_google_application_default_credentials_file.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_google_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_http_client_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_impersonate_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_logging_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_minimal_iam_credentials_rest.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_refreshing_credentials_wrapper.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_regional_access_boundary_token_manager.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_service_account_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/oauth2_universe_domain.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/parse_service_account_p12_file.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/populate_rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_carrier.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_lro_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_opentelemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_parse_json_error.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_pure_background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_pure_completion_queue_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_request.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_retry_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_set_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/sign_using_sha256.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/ssl_ec_curves.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/tracing_http_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/tracing_rest_client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/tracing_rest_response.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/unified_rest_credentials.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/win32/win32_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/rest_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rest_internal.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_internal/google_cloud_cpp_rest_internal-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_protobuf_internal/google_cloud_cpp_rest_protobuf_internal-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_protobuf_internal/google_cloud_cpp_rest_protobuf_internal-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_rest_protobuf_internal.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_long_running_operation.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_long_running_operation_custom.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_polling_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_polling_loop_custom.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_polling_loop_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/async_rest_retry_loop.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_background_threads_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_completion_queue_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/internal/rest_stub_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_rest_protobuf_internal.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_protobuf_internal/google_cloud_cpp_rest_protobuf_internal-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_rest_protobuf_internal/google_cloud_cpp_rest_protobuf_internal-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage/storage-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage/storage-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_storage.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/auto_finalize.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_access_control.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_autoclass.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_billing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_cors_entry.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_custom_placement_config.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_encryption.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_hierarchical_namespace.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_iam_configuration.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_lifecycle.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_retention_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_rpo.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_soft_delete_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_versioning.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/bucket_website.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/download_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/enable_object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/hash_mismatch_error.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/hashing_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/headers_map.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/hmac_key_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/iam_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/idempotency_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/include_folders_as_prefixes.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/base64.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/binary_data_as_debug_string.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/bucket_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/bucket_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/bucket_metadata_cache.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/bucket_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/bucket_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/checksum_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/complex_option.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/compute_engine_util.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/connection_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/const_buffer.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/crc32c.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/curl/request.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/curl/request_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/default_object_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/empty_response.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generate_message_boundary.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generic_object_request.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generic_request.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generic_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generic_stub_adapter.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/generic_stub_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hash_function.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hash_function_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hash_validator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hash_validator_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hash_values.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hedged_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hedged_read_metrics.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hedging_thread_pool.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hmac_key_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/hmac_key_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/http_response.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/lifecycle_rule_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/logging_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/make_jwt_assertion.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/md5hash.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/notification_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/notification_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_acl_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_read_streambuf.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/object_write_streambuf.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/patch_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/patch_builder_details.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/policy_document_request.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/request_project_id.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/rest/object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/rest/request_builder.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/rest/stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/retry_logging.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/retry_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/service_account_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/service_account_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/sign_blob_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/signed_url_requests.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/tracing_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/tracing_object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/tuple_filter.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/well_known_parameters_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/lifecycle_rule.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/list_buckets_extended_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/list_buckets_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/list_hmac_keys_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/list_objects_and_prefixes_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/list_objects_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/notification_event_type.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/notification_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/notification_payload_format.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_access_control.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_contexts.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_metadata.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_read_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_rewriter.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/object_write_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/override_default_project.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/override_unlocked_retention.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/owner.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/parallel_upload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/policy_document.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/project_team.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/retry_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/service_account.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/signed_url_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/soft_deleted.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/storage_class.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/upload_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/user_ip_option.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/version.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/version_info.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/well_known_headers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/well_known_parameters.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_storage.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage/google_cloud_cpp_storage-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage/google_cloud_cpp_storage-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/testing/mock_client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/storage/v2/storage.proto
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/storage/v2/storage.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/storage/v2/storage.grpc.pb.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_storage_protos.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/pkgconfig/google_cloud_cpp_storage_grpc.pc
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage_grpc/storage_grpc-targets.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage_grpc/storage_grpc-targets-release.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage_grpc/google_cloud_cpp_storage_grpc-config.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/cmake/google_cloud_cpp_storage_grpc/google_cloud_cpp_storage_grpc-config-version.cmake
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_storage_grpc.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/lib/libgoogle_cloud_cpp_storage_protos.a
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/bucket_name.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/client.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/idempotency_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/object_descriptor.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/object_descriptor_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/object_responses.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/read_all.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/reader_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/resume_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/retry_policy.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/rewriter.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/rewriter_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/token.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/write_payload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/writer.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/async/writer_connection.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/grpc_plugin.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/checksum_helpers.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/connection_fwd.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/connection_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/default_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/handle_redirect_error.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/insert_object.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/multi_stream_manager.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/object_descriptor_connection_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/object_descriptor_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/object_descriptor_reader.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/object_descriptor_reader_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/open_object.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/open_stream.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/partial_upload.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/read_payload_fwd.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/read_payload_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/read_range.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/reader_connection_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/reader_connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/reader_connection_resume.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/reader_connection_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/rewriter_connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/rewriter_connection_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/token_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/write_object.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/write_payload_fwd.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/write_payload_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/writer_connection_buffered.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/writer_connection_finalized.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/writer_connection_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/writer_connection_resumed.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/async/writer_connection_tracing.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/bucket_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/bucket_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/bucket_name.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/bucket_request_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/buffer_read_object_data.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/channel_refresh.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/channel_telemetry.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/configure_client_context.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/ctype_cord_workaround.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/default_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/enable_metrics.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/make_cord.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/metrics_exporter_impl.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/metrics_exporter_options.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/metrics_histograms.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/metrics_meter_provider.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/monitoring_project.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/object_access_control_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/object_metadata_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/object_read_source.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/object_request_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/owner_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/scale_stall_timeout.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/sign_blob_request_parser.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/split_write_object_data.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/grpc/synthetic_self_link.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_auth_decorator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_logging_decorator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_metadata_decorator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_round_robin_decorator.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_stub.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_stub_factory.h
+-- Installing: /root/gcs-poc/measure/gcc-grpc-install/include/google/cloud/storage/internal/storage_tracing_stub.h

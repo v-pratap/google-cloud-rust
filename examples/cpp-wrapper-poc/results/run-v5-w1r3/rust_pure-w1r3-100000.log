@@ -1,0 +1,2 @@
+impl=rust_pure bucket=YOUR_STANDARD_BUCKET workload=w1r3 iterations=200
+  w1r3: 200 iterations in 40.1 s  cpu=0.5 s  alloc=291 MiB  rss start/end/peak=216/220/220 MiB

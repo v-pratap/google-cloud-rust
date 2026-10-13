@@ -64,6 +64,10 @@ add_dependencies(gcs_rust gcs_core_build)
 add_executable(quickstart cpp/examples/quickstart.cc)
 target_link_libraries(quickstart PRIVATE gcs_rust)
 
+# Minimal JSON app (upload + read + delete), for binary-size comparison only.
+add_executable(json_min_wrapped cpp/examples/json_min_wrapped.cc)
+target_link_libraries(json_min_wrapped PRIVATE gcs_rust)
+
 add_executable(rust_wrapped_bench cpp/bench/rust_wrapped_bench.cc)
 target_link_libraries(rust_wrapped_bench PRIVATE gcs_rust)
 

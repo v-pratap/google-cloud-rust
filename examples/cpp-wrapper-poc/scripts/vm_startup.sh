@@ -87,8 +87,18 @@ smoke() {
 }
 
 bench() {
-  if [[ "$(meta poc-mode || echo ssb)" == "verify" ]]; then
+  local mode; mode="$(meta poc-mode || echo ssb)"
+  if [[ "$mode" == "verify" ]]; then
     "$ROOT/gcs-cpp-rust-poc/scripts/vm_run_verify.sh" "$BUCKET" "$ITER"
+  elif [[ "$mode" == "ab100mb" ]]; then
+    "$ROOT/gcs-cpp-rust-poc/scripts/vm_run_ab100mb.sh" "$W1R3_BUCKET"
+  elif [[ "$mode" == "measure-native" ]]; then
+    SKIP_REPO=1 "$ROOT/gcs-cpp-rust-poc/scripts/vm_measure_native.sh" || true
+    "$ROOT/gcs-cpp-rust-poc/scripts/vm_run_ab100mb.sh" "$W1R3_BUCKET"
+  elif [[ "$mode" == "w1r3" ]]; then
+    "$ROOT/gcs-cpp-rust-poc/scripts/vm_run_w1r3.sh" "$W1R3_BUCKET" "$ITER"
+    gcloud storage cp -q -r "$ROOT/results" "$DEST/" || true   # keep bench data safe
+    "$ROOT/gcs-cpp-rust-poc/scripts/vm_measure_build.sh" || true
   else
     "$ROOT/gcs-cpp-rust-poc/scripts/vm_run_ssb.sh" "$BUCKET" "$W1R3_BUCKET" "$ITER"
   fi
